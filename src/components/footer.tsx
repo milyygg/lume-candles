@@ -39,6 +39,7 @@ export function Footer() {
         <span>Декоративные свечи ручной работы</span>
         <a href="#main">Наверх ↑</a>
       </div>
+      <p className="developer-credit">Сайт сделан <a href="https://t.me/milyy_gg" target="_blank" rel="noopener noreferrer">Михаилом Милосердовым</a></p>
     </footer>
   );
 }

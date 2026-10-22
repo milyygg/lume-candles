@@ -1,0 +1,1430 @@
+[
+  {
+    "label": "before",
+    "route": "/",
+    "run": 1,
+    "profile": {
+      "viewport": "390x844",
+      "dpr": 3,
+      "downloadMbps": 1.6,
+      "uploadMbps": 0.75,
+      "latencyMs": 150,
+      "cpuSlowdown": 4,
+      "cache": "disabled"
+    },
+    "lcpMs": 34792,
+    "cls": 0.037970256352123366,
+    "lcpElement": "IMG ",
+    "firstScreenReadyMs": 38752.79999999702,
+    "imageBytes": 7046789,
+    "imageRequests": 4,
+    "maxConcurrentImageRequests": 4,
+    "requests": [
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-21-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-22-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-38-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-39-studio.png",
+        "priority": "Low"
+      }
+    ],
+    "images": [
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-21-studio.png",
+        "width": 291,
+        "naturalWidth": 1122,
+        "loading": "auto",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-22-studio.png",
+        "width": 126,
+        "naturalWidth": 1122,
+        "loading": "auto",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-22-studio.png",
+        "width": 346,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-38-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-39-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-38-studio.png",
+        "width": 346,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 346,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-39-studio.png",
+        "width": 346,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      }
+    ]
+  },
+  {
+    "label": "before",
+    "route": "/",
+    "run": 2,
+    "profile": {
+      "viewport": "390x844",
+      "dpr": 3,
+      "downloadMbps": 1.6,
+      "uploadMbps": 0.75,
+      "latencyMs": 150,
+      "cpuSlowdown": 4,
+      "cache": "disabled"
+    },
+    "lcpMs": 34780,
+    "cls": 0.037970256352123366,
+    "lcpElement": "IMG ",
+    "firstScreenReadyMs": 38747.30000000447,
+    "imageBytes": 7046789,
+    "imageRequests": 4,
+    "maxConcurrentImageRequests": 4,
+    "requests": [
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-21-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-22-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-38-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-39-studio.png",
+        "priority": "Low"
+      }
+    ],
+    "images": [
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-21-studio.png",
+        "width": 291,
+        "naturalWidth": 1122,
+        "loading": "auto",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-22-studio.png",
+        "width": 126,
+        "naturalWidth": 1122,
+        "loading": "auto",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-22-studio.png",
+        "width": 346,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-38-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-39-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-38-studio.png",
+        "width": 346,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 346,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-39-studio.png",
+        "width": 346,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      }
+    ]
+  },
+  {
+    "label": "before",
+    "route": "/",
+    "run": 3,
+    "profile": {
+      "viewport": "390x844",
+      "dpr": 3,
+      "downloadMbps": 1.6,
+      "uploadMbps": 0.75,
+      "latencyMs": 150,
+      "cpuSlowdown": 4,
+      "cache": "disabled"
+    },
+    "lcpMs": 34776,
+    "cls": 0.037970256352123366,
+    "lcpElement": "IMG ",
+    "firstScreenReadyMs": 38729.39999999851,
+    "imageBytes": 7046789,
+    "imageRequests": 4,
+    "maxConcurrentImageRequests": 4,
+    "requests": [
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-21-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-22-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-38-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-39-studio.png",
+        "priority": "Low"
+      }
+    ],
+    "images": [
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-21-studio.png",
+        "width": 291,
+        "naturalWidth": 1122,
+        "loading": "auto",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-22-studio.png",
+        "width": 126,
+        "naturalWidth": 1122,
+        "loading": "auto",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-22-studio.png",
+        "width": 346,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-38-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-39-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-38-studio.png",
+        "width": 346,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 346,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-39-studio.png",
+        "width": 346,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      }
+    ]
+  },
+  {
+    "label": "before",
+    "route": "/catalog/",
+    "run": 1,
+    "profile": {
+      "viewport": "390x844",
+      "dpr": 3,
+      "downloadMbps": 1.6,
+      "uploadMbps": 0.75,
+      "latencyMs": 150,
+      "cpuSlowdown": 4,
+      "cache": "disabled"
+    },
+    "lcpMs": 1984,
+    "cls": 0.23696682464454977,
+    "lcpElement": "H1 ",
+    "firstScreenReadyMs": 2095.6999999955297,
+    "imageBytes": 14883918,
+    "imageRequests": 8,
+    "maxConcurrentImageRequests": 8,
+    "requests": [
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-21-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-22-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-38-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-39-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-36-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-18-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-32-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-25-studio.png",
+        "priority": "Low"
+      }
+    ],
+    "images": [
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-21-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-22-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-38-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-39-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-36-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-18-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-32-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-25-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      }
+    ]
+  },
+  {
+    "label": "before",
+    "route": "/catalog/",
+    "run": 2,
+    "profile": {
+      "viewport": "390x844",
+      "dpr": 3,
+      "downloadMbps": 1.6,
+      "uploadMbps": 0.75,
+      "latencyMs": 150,
+      "cpuSlowdown": 4,
+      "cache": "disabled"
+    },
+    "lcpMs": 1912,
+    "cls": 0.23696682464454977,
+    "lcpElement": "H1 ",
+    "firstScreenReadyMs": 1958.7999999970198,
+    "imageBytes": 14883918,
+    "imageRequests": 8,
+    "maxConcurrentImageRequests": 8,
+    "requests": [
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-21-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-22-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-38-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-39-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-36-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-18-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-32-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-25-studio.png",
+        "priority": "Low"
+      }
+    ],
+    "images": [
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-21-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-22-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-38-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-39-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-36-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-18-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-32-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-25-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      }
+    ]
+  },
+  {
+    "label": "before",
+    "route": "/catalog/",
+    "run": 3,
+    "profile": {
+      "viewport": "390x844",
+      "dpr": 3,
+      "downloadMbps": 1.6,
+      "uploadMbps": 0.75,
+      "latencyMs": 150,
+      "cpuSlowdown": 4,
+      "cache": "disabled"
+    },
+    "lcpMs": 1908,
+    "cls": 0.23696682464454977,
+    "lcpElement": "H1 ",
+    "firstScreenReadyMs": 1957.7999999970198,
+    "imageBytes": 14883918,
+    "imageRequests": 8,
+    "maxConcurrentImageRequests": 8,
+    "requests": [
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-21-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-22-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-38-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-39-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-36-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-18-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-32-studio.png",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/studio/MEDIA-25-studio.png",
+        "priority": "Low"
+      }
+    ],
+    "images": [
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-21-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-22-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-38-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-39-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-36-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-18-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-32-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/studio/MEDIA-25-studio.png",
+        "width": 166,
+        "naturalWidth": 1122,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      }
+    ]
+  }
+]

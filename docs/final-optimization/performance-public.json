@@ -1,0 +1,1430 @@
+[
+  {
+    "label": "public",
+    "route": "/",
+    "run": 1,
+    "profile": {
+      "viewport": "390x844",
+      "dpr": 3,
+      "downloadMbps": 1.6,
+      "uploadMbps": 0.75,
+      "latencyMs": 150,
+      "cpuSlowdown": 4,
+      "cache": "disabled"
+    },
+    "lcpMs": 1308,
+    "cls": 0.06675084618667422,
+    "lcpElement": "IMG ",
+    "firstScreenReadyMs": 2592.5999999940395,
+    "imageBytes": 65098,
+    "imageRequests": 4,
+    "maxConcurrentImageRequests": 4,
+    "requests": [
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-21-studio-960.avif",
+        "priority": "High"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-38-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-39-studio-640.avif",
+        "priority": "Low"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-21-studio-960.avif",
+        "width": 291,
+        "naturalWidth": 280,
+        "loading": "eager",
+        "priority": "high"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "width": 126,
+        "naturalWidth": 136,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "width": 346,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-38-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-39-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 346,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 346,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 346,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      }
+    ]
+  },
+  {
+    "label": "public",
+    "route": "/",
+    "run": 2,
+    "profile": {
+      "viewport": "390x844",
+      "dpr": 3,
+      "downloadMbps": 1.6,
+      "uploadMbps": 0.75,
+      "latencyMs": 150,
+      "cpuSlowdown": 4,
+      "cache": "disabled"
+    },
+    "lcpMs": 1336,
+    "cls": 0.06675084618667422,
+    "lcpElement": "IMG ",
+    "firstScreenReadyMs": 2549.5,
+    "imageBytes": 65098,
+    "imageRequests": 4,
+    "maxConcurrentImageRequests": 4,
+    "requests": [
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-21-studio-960.avif",
+        "priority": "High"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-38-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-39-studio-640.avif",
+        "priority": "Low"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-21-studio-960.avif",
+        "width": 291,
+        "naturalWidth": 280,
+        "loading": "eager",
+        "priority": "high"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "width": 126,
+        "naturalWidth": 136,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "width": 346,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-38-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-39-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 346,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 346,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 346,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      }
+    ]
+  },
+  {
+    "label": "public",
+    "route": "/",
+    "run": 3,
+    "profile": {
+      "viewport": "390x844",
+      "dpr": 3,
+      "downloadMbps": 1.6,
+      "uploadMbps": 0.75,
+      "latencyMs": 150,
+      "cpuSlowdown": 4,
+      "cache": "disabled"
+    },
+    "lcpMs": 1300,
+    "cls": 0.06675084618667422,
+    "lcpElement": "IMG ",
+    "firstScreenReadyMs": 2496.1999999955297,
+    "imageBytes": 65050,
+    "imageRequests": 4,
+    "maxConcurrentImageRequests": 4,
+    "requests": [
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-21-studio-960.avif",
+        "priority": "High"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-38-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-39-studio-640.avif",
+        "priority": "Low"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-21-studio-960.avif",
+        "width": 291,
+        "naturalWidth": 280,
+        "loading": "eager",
+        "priority": "high"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "width": 126,
+        "naturalWidth": 136,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "width": 346,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-38-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-39-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 346,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 346,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 346,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      }
+    ]
+  },
+  {
+    "label": "public",
+    "route": "/catalog/",
+    "run": 1,
+    "profile": {
+      "viewport": "390x844",
+      "dpr": 3,
+      "downloadMbps": 1.6,
+      "uploadMbps": 0.75,
+      "latencyMs": 150,
+      "cpuSlowdown": 4,
+      "cache": "disabled"
+    },
+    "lcpMs": 1288,
+    "cls": 0.0798640729189524,
+    "lcpElement": "H1 ",
+    "firstScreenReadyMs": 2365.6999999955297,
+    "imageBytes": 155230,
+    "imageRequests": 8,
+    "maxConcurrentImageRequests": 8,
+    "requests": [
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-21-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-38-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-39-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-36-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-18-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-32-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-25-studio-640.avif",
+        "priority": "Low"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-21-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-38-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-39-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-36-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-18-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-32-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-25-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      }
+    ]
+  },
+  {
+    "label": "public",
+    "route": "/catalog/",
+    "run": 2,
+    "profile": {
+      "viewport": "390x844",
+      "dpr": 3,
+      "downloadMbps": 1.6,
+      "uploadMbps": 0.75,
+      "latencyMs": 150,
+      "cpuSlowdown": 4,
+      "cache": "disabled"
+    },
+    "lcpMs": 1428,
+    "cls": 0.001054507172843095,
+    "lcpElement": "H1 ",
+    "firstScreenReadyMs": 2464.8000000044703,
+    "imageBytes": 155555,
+    "imageRequests": 8,
+    "maxConcurrentImageRequests": 8,
+    "requests": [
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-21-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-38-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-39-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-36-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-18-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-32-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-25-studio-640.avif",
+        "priority": "Low"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-21-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-38-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-39-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-36-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-18-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-32-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-25-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      }
+    ]
+  },
+  {
+    "label": "public",
+    "route": "/catalog/",
+    "run": 3,
+    "profile": {
+      "viewport": "390x844",
+      "dpr": 3,
+      "downloadMbps": 1.6,
+      "uploadMbps": 0.75,
+      "latencyMs": 150,
+      "cpuSlowdown": 4,
+      "cache": "disabled"
+    },
+    "lcpMs": 1548,
+    "cls": 0.0798640729189524,
+    "lcpElement": "H1 ",
+    "firstScreenReadyMs": 2381.89999999851,
+    "imageBytes": 155545,
+    "imageRequests": 8,
+    "maxConcurrentImageRequests": 8,
+    "requests": [
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-21-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-38-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-39-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-36-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-18-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-32-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-25-studio-640.avif",
+        "priority": "Low"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-21-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-38-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-39-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-36-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-18-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-32-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "https://milyygg.github.io/lume-candles/photography/optimized/MEDIA-25-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      }
+    ]
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "file": "01_Сайт_ПК.png",
+    "width": 2400,
+    "height": 1600,
+    "bytes": 658167,
+    "sha256": "dc8ddaf47e1f9f6ac1592631dffa31f7a30c2f56e325dd48f287bf6ccf4e9010",
+    "visuallyReviewed": true
+  },
+  {
+    "file": "02_Сайт_Телефон.png",
+    "width": 1440,
+    "height": 1800,
+    "bytes": 471015,
+    "sha256": "97ce7ea3bfcc4afc390b8e3b5dd77936f709d25de2c1911d5e1a61689a5480c0",
+    "visuallyReviewed": true
+  },
+  {
+    "file": "03_ПК_и_Телефон.png",
+    "width": 2560,
+    "height": 1600,
+    "bytes": 929866,
+    "sha256": "4c40a72bd52c29eef2a50ad426612cea3338fe0ba56573b198e69bd431bea3bb",
+    "visuallyReviewed": true
+  },
+  {
+    "file": "04_Главная_ПК.png",
+    "width": 2880,
+    "height": 1800,
+    "bytes": 747770,
+    "sha256": "7302903130acdf4225863df5ee9d7b7adf518141787f8a1a36cdf39f6a462921",
+    "visuallyReviewed": true
+  },
+  {
+    "file": "05_Каталог_ПК.png",
+    "width": 2880,
+    "height": 13822,
+    "bytes": 14786465,
+    "sha256": "c81f3a61674c7025562410da86a0d7de27ad90b305344e5887dccc4b0308332a",
+    "visuallyReviewed": true
+  },
+  {
+    "file": "06_Карточка_товара_ПК.png",
+    "width": 2880,
+    "height": 6186,
+    "bytes": 2192546,
+    "sha256": "775c5a489297bc5ccd895fb3b473617ae7472eced7dd8e55417d636bda4759a6",
+    "visuallyReviewed": true
+  },
+  {
+    "file": "07_Главная_Телефон.png",
+    "width": 1170,
+    "height": 2700,
+    "bytes": 558248,
+    "sha256": "8fb817137d71fe7bd1528d6a90e610a73e250e1fb990e73290ce1fe1c60d987b",
+    "visuallyReviewed": true
+  },
+  {
+    "file": "08_Каталог_Телефон.png",
+    "width": 1170,
+    "height": 2700,
+    "bytes": 1187259,
+    "sha256": "0a81de3a8d9f83acbd8c193e0e65a557035546ab8230bc8f173f79ab0ee6015e",
+    "visuallyReviewed": true
+  },
+  {
+    "file": "09_Конструктор_Телефон.png",
+    "width": 1038,
+    "height": 2568,
+    "bytes": 140302,
+    "sha256": "dec5adde4e9a1f05a1339421d01105600e636140a6341a426039e9ec81fb57ac",
+    "visuallyReviewed": true
+  }
+]

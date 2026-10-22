@@ -24,6 +24,7 @@ export function ProductCard({
         <Photograph
           source={product.image}
           alt={product.name}
+          sizes="(max-width: 600px) 46vw, (max-width: 850px) 30vw, 24vw"
         />
       </Link>
       <div className="product-meta">

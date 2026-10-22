@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://milyygg.github.io/lume-candles",
+    "viewport": "desktop",
+    "passed": true,
+    "products": 40,
+    "configurationTotal": 6400
+  },
+  {
+    "url": "https://milyygg.github.io/lume-candles",
+    "viewport": "tablet",
+    "passed": true,
+    "products": 40,
+    "configurationTotal": 6400
+  },
+  {
+    "url": "https://milyygg.github.io/lume-candles",
+    "viewport": "mobile",
+    "passed": true,
+    "products": 40,
+    "configurationTotal": 6400
+  }
+]

@@ -54,7 +54,7 @@ test("client redesign screenshots, studio photos, fonts and reduced motion", asy
         .screenshot({ path: `${folder}/card.png` });
       await expect(page.locator(".product-photo img").first()).toHaveAttribute(
         "src",
-        /\/photography\/(studio\/)?MEDIA-/,
+        /\/photography\/(optimized\/|studio\/)?MEDIA-/,
       );
       expect(
         await page

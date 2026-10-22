@@ -7,10 +7,10 @@ export function ProductGallery({product}:{product:Product}) {
  const [original,setOriginal] = useState(false);
  const studio = hasStudioPhoto(product.image);
  return <figure className="detail-image">
-  <div className="detail-image-frame" key={String(original)}><Photograph source={product.image} original={original} alt={product.name} priority /></div>
+  <div className="detail-image-frame" key={String(original)}><Photograph source={product.image} original={original} alt={product.name} priority sizes="(max-width: 600px) 90vw, 45vw" /></div>
   {studio && <div className="gallery-thumbs" aria-label="Фотографии изделия">
    {[false,true].map(value=><button type="button" key={String(value)} aria-label={value?"Другой вид":"Светлый фон"} aria-pressed={original===value} onClick={()=>setOriginal(value)}>
-    <Photograph source={product.image} original={value} alt={value?"Другой вид изделия":"На светлом фоне"}/>
+    <Photograph source={product.image} original={value} alt={value?"Другой вид изделия":"На светлом фоне"} sizes="64px"/>
     <span>{value?"Другой вид":"Светлый фон"}</span>
    </button>)}
   </div>}

@@ -1,0 +1,2042 @@
+[
+  {
+    "label": "after",
+    "route": "/",
+    "run": 1,
+    "profile": {
+      "viewport": "390x844",
+      "dpr": 3,
+      "downloadMbps": 1.6,
+      "uploadMbps": 0.75,
+      "latencyMs": 150,
+      "cpuSlowdown": 4,
+      "cache": "disabled"
+    },
+    "lcpMs": 2032,
+    "cls": 0.037970256352123366,
+    "lcpElement": "IMG ",
+    "firstScreenReadyMs": 4188.10000000149,
+    "imageBytes": 64862,
+    "imageRequests": 15,
+    "maxConcurrentImageRequests": 3,
+    "requests": [
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-21-studio-960.avif",
+        "priority": "High"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQBACdASoUABkAPwFurk6rJqQiMAgBYCAJZQDG9CHfUFWHtGuViFU+AAD+5wnaxtZ8ZXsnVW1GzHczJSUGDFPjZmiQeowMTAAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACQBACdASoUABkAPwFurlCrJiQisBgIAWAgCWUAuwAQ7+H3itaxevVwbwC7zUAA/upzkxm5WGn7CHEmt0X6Wqq/BY50fLmCckhAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAACwBACdASoUABkAPwFuqU8rJqOiMBgMAWAgCWUAwNwQ7+H/w+zmdCqv0EM0ed+AAP7qZosgI+xOSQkZuQJYv5DKZybk57iOrMRgaYlZ69SdzJ+ZuuyA3vmzBCTsTn55LWe47jE/CL5F6AAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUABkAPwFsrE8rJiQiMAgBYCAJZQC/7CHfjUCWHErjt6AA/ucabQlL2F7qjuynbDfkopJbyBxNw/G73QAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADwBACdASoUABkAPwFor1GrJSQisBgIAWAgCWgAuwAQ8AUyL6Vihj7PDivJjc/vvYAA/u1GBboVsJ+AlJfQaVj/dJW7zOlIyHigFF1s7zYakHn5EoNLw8j6gq2I2uEP/jKfsJqwOKWk3bJ0IAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAwCdASoUABkAPvVorE6qpiSiMAwBUB6JYgCdACHfSIjqslSTYQQAAP7tRi5aR+L8IPyYgjh91tMRHVYXsEvGf/gF5rZ4M3SjLmm/zrdCMCBVW3O2ts2JyNDkQVxPnAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAABQBQCdASoUABkAPwFsr1ArJiQiqA1RYCAJQBadAiOdoTgtaABjNvMXoYCyVgDky7avioAA/u1BkdWRBE/aGiEZsxlBZp62H7DNE1MtTfO2KOexRnnYVUDJ6unt6MiXjXl9BOZ0EoEQA4TRqq423LgbgjKBwQRn/fqw8gAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwBACdASoUABkAPwFqrU6rJiQiMAgBYCAJZwDO7CHfjVzA6BeHCgz3/kAA/up5il9qXHeZTcRFo3rMm+/vMHcUo4sN/jSda6wVw0/AIncAAAAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADQBACdASoUABkAPwFurU6rJqQiMAgBYCAJQBbZBDvx7sk57SBPvjdOeDmUiYzkwAD+7TWImUeCtlKPnWWTGl+gMH5rGmu+s74vbWSYH/2/7yJS4qPoqWBujm4pFKMBldqwGy4AAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABQBACdASoUABkAPwFwrFErJiQiqA1RYCAJZwDLLA9m1+Sjcy7Lk6k9N2KAAP7qlsWeIPfMly8GDAVojmDf2Nlv9sZv8nWvOGSXdGyLuHrBJHyPoAAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQBACdASoUABkAPwFqq08rJiOiMAgBYCAJZyzAA3QAhJXmCtt0NNrXe+XmV/aYAAD+7WFrLgoEXyviPdZTJ5aPKhBMCFZ6EdbuaUwsz3Dh1/0W6qPAuPCDtj3gAAAA",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-38-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-39-studio-640.avif",
+        "priority": "Low"
+      }
+    ],
+    "images": [
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-21-studio-960.avif",
+        "width": 291,
+        "naturalWidth": 280,
+        "loading": "eager",
+        "priority": "high"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "width": 126,
+        "naturalWidth": 136,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "width": 346,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-38-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-39-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 346,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 346,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 346,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      }
+    ]
+  },
+  {
+    "label": "after",
+    "route": "/",
+    "run": 2,
+    "profile": {
+      "viewport": "390x844",
+      "dpr": 3,
+      "downloadMbps": 1.6,
+      "uploadMbps": 0.75,
+      "latencyMs": 150,
+      "cpuSlowdown": 4,
+      "cache": "disabled"
+    },
+    "lcpMs": 1996,
+    "cls": 0.037970256352123366,
+    "lcpElement": "IMG ",
+    "firstScreenReadyMs": 4185.19999999553,
+    "imageBytes": 64862,
+    "imageRequests": 15,
+    "maxConcurrentImageRequests": 3,
+    "requests": [
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-21-studio-960.avif",
+        "priority": "High"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQBACdASoUABkAPwFurk6rJqQiMAgBYCAJZQDG9CHfUFWHtGuViFU+AAD+5wnaxtZ8ZXsnVW1GzHczJSUGDFPjZmiQeowMTAAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACQBACdASoUABkAPwFurlCrJiQisBgIAWAgCWUAuwAQ7+H3itaxevVwbwC7zUAA/upzkxm5WGn7CHEmt0X6Wqq/BY50fLmCckhAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAACwBACdASoUABkAPwFuqU8rJqOiMBgMAWAgCWUAwNwQ7+H/w+zmdCqv0EM0ed+AAP7qZosgI+xOSQkZuQJYv5DKZybk57iOrMRgaYlZ69SdzJ+ZuuyA3vmzBCTsTn55LWe47jE/CL5F6AAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUABkAPwFsrE8rJiQiMAgBYCAJZQC/7CHfjUCWHErjt6AA/ucabQlL2F7qjuynbDfkopJbyBxNw/G73QAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADwBACdASoUABkAPwFor1GrJSQisBgIAWAgCWgAuwAQ8AUyL6Vihj7PDivJjc/vvYAA/u1GBboVsJ+AlJfQaVj/dJW7zOlIyHigFF1s7zYakHn5EoNLw8j6gq2I2uEP/jKfsJqwOKWk3bJ0IAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAwCdASoUABkAPvVorE6qpiSiMAwBUB6JYgCdACHfSIjqslSTYQQAAP7tRi5aR+L8IPyYgjh91tMRHVYXsEvGf/gF5rZ4M3SjLmm/zrdCMCBVW3O2ts2JyNDkQVxPnAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAABQBQCdASoUABkAPwFsr1ArJiQiqA1RYCAJQBadAiOdoTgtaABjNvMXoYCyVgDky7avioAA/u1BkdWRBE/aGiEZsxlBZp62H7DNE1MtTfO2KOexRnnYVUDJ6unt6MiXjXl9BOZ0EoEQA4TRqq423LgbgjKBwQRn/fqw8gAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwBACdASoUABkAPwFqrU6rJiQiMAgBYCAJZwDO7CHfjVzA6BeHCgz3/kAA/up5il9qXHeZTcRFo3rMm+/vMHcUo4sN/jSda6wVw0/AIncAAAAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADQBACdASoUABkAPwFurU6rJqQiMAgBYCAJQBbZBDvx7sk57SBPvjdOeDmUiYzkwAD+7TWImUeCtlKPnWWTGl+gMH5rGmu+s74vbWSYH/2/7yJS4qPoqWBujm4pFKMBldqwGy4AAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABQBACdASoUABkAPwFwrFErJiQiqA1RYCAJZwDLLA9m1+Sjcy7Lk6k9N2KAAP7qlsWeIPfMly8GDAVojmDf2Nlv9sZv8nWvOGSXdGyLuHrBJHyPoAAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQBACdASoUABkAPwFqq08rJiOiMAgBYCAJZyzAA3QAhJXmCtt0NNrXe+XmV/aYAAD+7WFrLgoEXyviPdZTJ5aPKhBMCFZ6EdbuaUwsz3Dh1/0W6qPAuPCDtj3gAAAA",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-38-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-39-studio-640.avif",
+        "priority": "Low"
+      }
+    ],
+    "images": [
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-21-studio-960.avif",
+        "width": 291,
+        "naturalWidth": 280,
+        "loading": "eager",
+        "priority": "high"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "width": 126,
+        "naturalWidth": 136,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "width": 346,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-38-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-39-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 346,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 346,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 346,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      }
+    ]
+  },
+  {
+    "label": "after",
+    "route": "/",
+    "run": 3,
+    "profile": {
+      "viewport": "390x844",
+      "dpr": 3,
+      "downloadMbps": 1.6,
+      "uploadMbps": 0.75,
+      "latencyMs": 150,
+      "cpuSlowdown": 4,
+      "cache": "disabled"
+    },
+    "lcpMs": 1996,
+    "cls": 0.037970256352123366,
+    "lcpElement": "IMG ",
+    "firstScreenReadyMs": 4110.30000000447,
+    "imageBytes": 64862,
+    "imageRequests": 15,
+    "maxConcurrentImageRequests": 3,
+    "requests": [
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-21-studio-960.avif",
+        "priority": "High"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQBACdASoUABkAPwFurk6rJqQiMAgBYCAJZQDG9CHfUFWHtGuViFU+AAD+5wnaxtZ8ZXsnVW1GzHczJSUGDFPjZmiQeowMTAAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACQBACdASoUABkAPwFurlCrJiQisBgIAWAgCWUAuwAQ7+H3itaxevVwbwC7zUAA/upzkxm5WGn7CHEmt0X6Wqq/BY50fLmCckhAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAACwBACdASoUABkAPwFuqU8rJqOiMBgMAWAgCWUAwNwQ7+H/w+zmdCqv0EM0ed+AAP7qZosgI+xOSQkZuQJYv5DKZybk57iOrMRgaYlZ69SdzJ+ZuuyA3vmzBCTsTn55LWe47jE/CL5F6AAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUABkAPwFsrE8rJiQiMAgBYCAJZQC/7CHfjUCWHErjt6AA/ucabQlL2F7qjuynbDfkopJbyBxNw/G73QAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADwBACdASoUABkAPwFor1GrJSQisBgIAWAgCWgAuwAQ8AUyL6Vihj7PDivJjc/vvYAA/u1GBboVsJ+AlJfQaVj/dJW7zOlIyHigFF1s7zYakHn5EoNLw8j6gq2I2uEP/jKfsJqwOKWk3bJ0IAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAwCdASoUABkAPvVorE6qpiSiMAwBUB6JYgCdACHfSIjqslSTYQQAAP7tRi5aR+L8IPyYgjh91tMRHVYXsEvGf/gF5rZ4M3SjLmm/zrdCMCBVW3O2ts2JyNDkQVxPnAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAABQBQCdASoUABkAPwFsr1ArJiQiqA1RYCAJQBadAiOdoTgtaABjNvMXoYCyVgDky7avioAA/u1BkdWRBE/aGiEZsxlBZp62H7DNE1MtTfO2KOexRnnYVUDJ6unt6MiXjXl9BOZ0EoEQA4TRqq423LgbgjKBwQRn/fqw8gAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwBACdASoUABkAPwFqrU6rJiQiMAgBYCAJZwDO7CHfjVzA6BeHCgz3/kAA/up5il9qXHeZTcRFo3rMm+/vMHcUo4sN/jSda6wVw0/AIncAAAAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADQBACdASoUABkAPwFurU6rJqQiMAgBYCAJQBbZBDvx7sk57SBPvjdOeDmUiYzkwAD+7TWImUeCtlKPnWWTGl+gMH5rGmu+s74vbWSYH/2/7yJS4qPoqWBujm4pFKMBldqwGy4AAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABQBACdASoUABkAPwFwrFErJiQiqA1RYCAJZwDLLA9m1+Sjcy7Lk6k9N2KAAP7qlsWeIPfMly8GDAVojmDf2Nlv9sZv8nWvOGSXdGyLuHrBJHyPoAAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQBACdASoUABkAPwFqq08rJiOiMAgBYCAJZyzAA3QAhJXmCtt0NNrXe+XmV/aYAAD+7WFrLgoEXyviPdZTJ5aPKhBMCFZ6EdbuaUwsz3Dh1/0W6qPAuPCDtj3gAAAA",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-38-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-39-studio-640.avif",
+        "priority": "Low"
+      }
+    ],
+    "images": [
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-21-studio-960.avif",
+        "width": 291,
+        "naturalWidth": 280,
+        "loading": "eager",
+        "priority": "high"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "width": 126,
+        "naturalWidth": 136,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "width": 346,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-38-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-39-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 346,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 346,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 109,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 346,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      }
+    ]
+  },
+  {
+    "label": "after",
+    "route": "/catalog/",
+    "run": 1,
+    "profile": {
+      "viewport": "390x844",
+      "dpr": 3,
+      "downloadMbps": 1.6,
+      "uploadMbps": 0.75,
+      "latencyMs": 150,
+      "cpuSlowdown": 4,
+      "cache": "disabled"
+    },
+    "lcpMs": 2052,
+    "cls": 0.08003255906874689,
+    "lcpElement": "H1 ",
+    "firstScreenReadyMs": 2897.7000000029802,
+    "imageBytes": 154821,
+    "imageRequests": 48,
+    "maxConcurrentImageRequests": 9,
+    "requests": [
+      {
+        "url": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQBACdASoUABkAPwFurk6rJqQiMAgBYCAJZQDG9CHfUFWHtGuViFU+AAD+5wnaxtZ8ZXsnVW1GzHczJSUGDFPjZmiQeowMTAAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACQBACdASoUABkAPwFurlCrJiQisBgIAWAgCWUAuwAQ7+H3itaxevVwbwC7zUAA/upzkxm5WGn7CHEmt0X6Wqq/BY50fLmCckhAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAACwBACdASoUABkAPwFuqU8rJqOiMBgMAWAgCWUAwNwQ7+H/w+zmdCqv0EM0ed+AAP7qZosgI+xOSQkZuQJYv5DKZybk57iOrMRgaYlZ69SdzJ+ZuuyA3vmzBCTsTn55LWe47jE/CL5F6AAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUABkAPwFsrE8rJiQiMAgBYCAJZQC/7CHfjUCWHErjt6AA/ucabQlL2F7qjuynbDfkopJbyBxNw/G73QAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADwBACdASoUABkAPwFor1GrJSQisBgIAWAgCWgAuwAQ8AUyL6Vihj7PDivJjc/vvYAA/u1GBboVsJ+AlJfQaVj/dJW7zOlIyHigFF1s7zYakHn5EoNLw8j6gq2I2uEP/jKfsJqwOKWk3bJ0IAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADQBACdASoUABkAPwFurU6rJqQiMAgBYCAJQBbZBDvx7sk57SBPvjdOeDmUiYzkwAD+7TWImUeCtlKPnWWTGl+gMH5rGmu+s74vbWSYH/2/7yJS4qPoqWBujm4pFKMBldqwGy4AAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAABQBQCdASoUABkAPwFsr1ArJiQiqA1RYCAJQBadAiOdoTgtaABjNvMXoYCyVgDky7avioAA/u1BkdWRBE/aGiEZsxlBZp62H7DNE1MtTfO2KOexRnnYVUDJ6unt6MiXjXl9BOZ0EoEQA4TRqq423LgbgjKBwQRn/fqw8gAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAwCdASoUABkAPvVorE6qpiSiMAwBUB6JYgCdACHfSIjqslSTYQQAAP7tRi5aR+L8IPyYgjh91tMRHVYXsEvGf/gF5rZ4M3SjLmm/zrdCMCBVW3O2ts2JyNDkQVxPnAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADwBACdASoUABkAPwF0slIrJqSiqAqpYCAJQBOmWOgv/9qMmkv1PHdKZx7/z7s9AAAA/udBONZ76ubavw9GDruop92alccYdgKc/vDcjCFPeE8qXGmwDiPS+2He/NkpRewa5ww6PlWGhqor6oD/7dTuL1ePHIChAAeMX8CrbDA0FxQAAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAACQBQCdASoUABkAPwFwqU6rJqOiMBgMAWAgCWwAnTKEeZj2QTdiXcyIuqZNOcR0RJZzU+gAAAD+7UYFcV9gmTyphnylDAanT/fcdiL7v6e7pml2UcZoejMrjbWR4lupZxkGBtv1Sb1bSWMaFtnpU1lmdBA9et+s6jTdfWOBIvSKga8JnJuvwQAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAACwBACdASoUABkAPvVmqE6qpaOiMAwBUB6JQBadBDvxpfudfV061ZfA60hoDjUAAP7tRfF1yPoiFCm85h3GqE/GmHqFaXiDEZQ/fM/JbA6w/6uCbtndr8DD9S9ud89yt4OTDC6cAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQBACdASoUABkAPwFyr0+rJyQiMAgBYCAJZQC3uCHe1MlUjcUYHnTKAAD+6oxtk6YRByU9z89TCKnZLEc7ff5h6ZwwtHOmf8PkpahmjSwrPfBwXdn2xAjRgAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABQBQCdASoUABkAPwFusFCrJiSisBgIAWAgCWwAtsgQ7/H6gaYBlhbollz7xBlugCthoAAA/u03Bb2iLyNcB6W5MCDX/nViHt5P3QB3UGXTaRpKSqSWvTnjjlpYj66c40T2FCD4rtnxEw4dggkUYnAmOcEAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAACQBACdASoUABkAPu1kp06ppiOpt/qoATAdiWkAwZAh34wu6KZXiPCcDsSOsAAA/u/Bsb+OFMKNX/cFY48gwNzCymV2uMPP9oWE8RsdFkbMAtNnGXsoDAAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwBACdASoUABkAPwFqrU6rJiQiMAgBYCAJZwDO7CHfjVzA6BeHCgz3/kAA/up5il9qXHeZTcRFo3rMm+/vMHcUo4sN/jSda6wVw0/AIncAAAAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAABQBQCdASoUABkAPv1qrU6rJiQiMBgMAWAfiUAWI9mAL4eA8z4bNnHeba3r9PSGgl193wAA/u1ha08gyMIM6TTo8FKpaDjfEmi+lKfKYNH0tfRhxtZHklG2KcWshOczEHEdmUmuayEdNczY8/E+4K2lywChNeOI5HAIQ8woAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACwBACdASoUABkAPv1sq06rJiOiMBgMAWAfiWYAtOgQ6yNy9z6Vxei5o8OvM54AAP7tRlY43x9BrW9KhV3DaFhHlwNM5m6AR6d1KaqXbTBgqCNE12VOjE7/YLhRLp9rMxGoY85iptN0RrsAAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAACwBQCdASoUABkAPwF0rlKrJqQiqAqpYCAJbACxH2iBSBTlFXgO3h1rTeYlZodw42pThnGNRwAA/uqMh4/2Xl2zdvWrZcihFieot4IB0ZpDaHrkmSlk+0NDYL76EheDNT/QFQuWVdcYWDRaY/NKTMAQ1MAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAABwBQCdASoUABkAPvlkqk6qpSOiN/VYAVAfCUATpmHQNO1NxfqpOTBj62+CmL/k9a2eoFegAP7tWA3+HPgWCCV36tGuSkuUJeMZuPMRIoZm0994pUqRvnuKKNDTbnqoLWUbFdFSrIAMrvtQ8JbhEHJxAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAACwBQCdASoUABkAPwFysFIrJqSiqAqpYCAJagCdMt8BqE5RXwRm/PhkJ6jFWlcf3NM/jR/YEaAA/u1at/rbm9E8sInJiQ8ah+6EubitcOL3bZ4G5BsDyXgPjyGh8vjxD7b/AcX8lV1YgIoc/+8bVgYRGMDaJiFE/xDMAk57V9stTmdvxB9oAAAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABQBACdASoUABkAPwFwrFErJiQiqA1RYCAJZwDLLA9m1+Sjcy7Lk6k9N2KAAP7qlsWeIPfMly8GDAVojmDf2Nlv9sZv8nWvOGSXdGyLuHrBJHyPoAAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAQBQCdASoUABkAPwFqsFErJaSisBgIAWAgCUAABfVPbf0mDmxU/QrMzmyzsfiU9rQAAP7qr/qEMyeu3Djua+K6jYjqhYfo2ZfMnbt+N0FomnPaG7ck9N824rdlmCMiIpa4yfWH54SZGYf6VJvyyrlK6kvfsAAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACwAwCdASoUABkAPwF4s1OrJySiqAgBYCAJQBZwAsy56X4sifhAAAD+7cRo3iXKjV4qbjokZIFQbVhDm3srk6AkVJzCChDZYHWY6j5g516dmhXoWQAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAAAwBQCdASoUABkAPvFmrE6ppaSiMAwBMB4JagCdM1XDTq7NaOBFGELYdBQnKdzbo6smAAD+7TcJFRPB1uPwH1uEovPoq4XL+/sqD6qiPeYeoTQhtB1oQ9/7Ok7PG1RwJXeG7AfUnl6iN6wc+OekDh5EqmFtddqQCIEShVag+mDS09o+TK96FGhAl/G/bYcAAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQBACdASoUABkAPwF4tFOrJyUiqAgBYCAJQBdgAiKo/0w4TGNGFz2WOAHaDAAA/up5GHHKHVuWXLav8RIKs7L0R1ilr0yzJBJYTtkmjThDfmtC3MDgi8BWIu4/bZAAAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABwBACdASoUABkAPwFqrU8rJiQiMAgBYCAJbAC1F9SB0ae0WbAvK73VS7zgAAD+6nl52wJ6mCc4EGGTIjp/8AhpMDrPQweNYdUOsYK1tTWGTBFu0RhF/LQOY0bcd3JyweNs0BxgAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABwBQCdASoUABkAPwFyqE8rJ6OiMBgMAWAgCWQAnTKAAaoCcgkNnDpd0B7Fr2htv2RmNeMAAP7qeKz3BeFh+VEE1340AQVpwpe97uxYXUZxChjYKxTu71v3R+9tsuqK5e7NJ6t7//gt1uRoQjrSe8JqEpIAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABwBQCdASoUABkAPwFqrE8rJaQiMBgMAWAgCWMAAC51nkxMexIDcnf+b+8knSkXfMKEoI4AAP7tRuKlyWCoBpjSaEdRbBZcT1Me9XZQpffYF6OHxLpK/wSL0fPA/t4bSwAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACwBACdASoUABkAPwFqr1ErJaQisBgIAWAgCWQAuzMOgan7AGMqy4jHpUNRwJYAAP7nHRQZAhjaaI/IQydSCMyF/ljH5A34JLteFhweZm3PWcuZTZacVKVbBUbclztAAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAACwBACdASoUABkAPvFmrE6ppiSiMAwBMB4JZgC/OCHf3+ejsiq2MLv4g1ukd7mgAP7vwa8Fu26p+hzyvjRm0b53VXiImQl1dIp7sjloPGjYQ66HNxXNtG7dQfJXL5aoK/dSGo0NAAAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwBACdASoUABkAPwF4tFQrJySjKAgBYCAJZQC+SBZlyS23SBL1uBRhq4AA/u3EMKekG2XmA5OFkKJv+DAYo693IFJxUpHec24VuHxWlv09/gAAAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAACQBQCdASoUABkAPwFsq06rJiOiMAgBYCAJbAC/Z8CB0bHIevASwIb/0CXj5goQXrHDMhEeAAD+6nO522z+BhU2rfLes/TuVbpWq6qdGWgC4guCOq/JhaHkr/4Ugxz9onUYVt9Lia1DNUGbtp3619FAY3d6RbB8OVq6KCw8ttVbBUYT3Qq/VbuhTk26W4MvAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAABwBQCdASoUABkAPwF0sFIrJqSiqAqpYCAJagCdMtVCmBTkTvFxOWKmIg1qCbn7pAVSCQQAAP7tWDK04CUkW8GOcLAPurIcdAf1uQ2MDrNjPvPF59SkUOAQ18/h/Crf6cdRj8GGzhZqTa67JU7Iec7Zb/wcZUSjn/IlqhULZW+MlpkAAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAADQBACdASoUABkAPwFyr1KrJqQiqAqpYCAJYgC06BEZ3ru81cTvnzgAnZwxW/p6AAD+6nmQIU+QdUwJxO5kt3E941ZgpCbZfvlot3b2RhEXTgQwqKMJoQPvXFXuL88K7S5quLl3m/SpT4C99u7J4dN1WhvuYT738gAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAADQBACdASoUABkAPwF0r1KrJqQiqAqpYCAJYgCsM2QBouIHNWL2UYYoHygwyDYhQAD+5xxDNY4vXTR+1Jgi1mp4J5Q3CfS4XuCP9rucmVHmY9L0jj7lmog3sSJxc7ye/DhbjrvinG9/50544Gk7HqPYbXtnDHhnoBgEAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwBACdASoUABkAPv1mrk6rJSSiMBgMAWAfiWIAqPQQ8KXS1yBtor4CrdgA/u1WQhi8nTwsGdolL5UjGZdYv9xFzNGYK9Ez3AJB5dK0BLKA/b+uy+B14/iI27f8gMkBJAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADQBACdASoUABkAPvFoqE6ppiQiMAwBMB4JYwC+SCHgT4iOFjqoi1C8MNZGq+0LAAD+7UYFeggKcnuWRMkfwf3UyhtfEMqlPnbGdViY0nl5rYYKqUxquuZgAAAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwBACdASoUABkAPwFys1GrJqSiqAqpYCAJYwC3uA9km1Viyj3A/q8pbWB56c97HAAA/uqWwZAm7qxsUhOUnZ7aXjb2WQ9njZmTrloIWqtKzxA/a8dlY+fjdDnBZCTE2I4zp22OL9SEUmgAugAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-21-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-38-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-39-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-36-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-18-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-32-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-25-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAACwBACdASoUABkAPwFur08rJqSiMAgBYCAJZQAAW+jXbdo1YnjSJNg+mag/bVxEAP7tWJqxp+6SYxEXiL4x4NBLCu9fn1vzfTeSbNkX/VvhOIyfOEEOLB/ywDCbmeV23JTTp2Fzg+mnhKPn3mT8KE4BQd+cL8MesnecTNIQwiWR8EAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQBACdASoUABkAPwFqq08rJiOiMAgBYCAJZyzAA3QAhJXmCtt0NNrXe+XmV/aYAAD+7WFrLgoEXyviPdZTJ5aPKhBMCFZ6EdbuaUwsz3Dh1/0W6qPAuPCDtj3gAAAA",
+        "priority": "Low"
+      }
+    ],
+    "images": [
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-21-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-38-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-39-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-36-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-18-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-32-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-25-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      }
+    ]
+  },
+  {
+    "label": "after",
+    "route": "/catalog/",
+    "run": 2,
+    "profile": {
+      "viewport": "390x844",
+      "dpr": 3,
+      "downloadMbps": 1.6,
+      "uploadMbps": 0.75,
+      "latencyMs": 150,
+      "cpuSlowdown": 4,
+      "cache": "disabled"
+    },
+    "lcpMs": 2040,
+    "cls": 0.08003255906874689,
+    "lcpElement": "H1 ",
+    "firstScreenReadyMs": 2865,
+    "imageBytes": 154821,
+    "imageRequests": 48,
+    "maxConcurrentImageRequests": 9,
+    "requests": [
+      {
+        "url": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQBACdASoUABkAPwFurk6rJqQiMAgBYCAJZQDG9CHfUFWHtGuViFU+AAD+5wnaxtZ8ZXsnVW1GzHczJSUGDFPjZmiQeowMTAAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACQBACdASoUABkAPwFurlCrJiQisBgIAWAgCWUAuwAQ7+H3itaxevVwbwC7zUAA/upzkxm5WGn7CHEmt0X6Wqq/BY50fLmCckhAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAACwBACdASoUABkAPwFuqU8rJqOiMBgMAWAgCWUAwNwQ7+H/w+zmdCqv0EM0ed+AAP7qZosgI+xOSQkZuQJYv5DKZybk57iOrMRgaYlZ69SdzJ+ZuuyA3vmzBCTsTn55LWe47jE/CL5F6AAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUABkAPwFsrE8rJiQiMAgBYCAJZQC/7CHfjUCWHErjt6AA/ucabQlL2F7qjuynbDfkopJbyBxNw/G73QAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADwBACdASoUABkAPwFor1GrJSQisBgIAWAgCWgAuwAQ8AUyL6Vihj7PDivJjc/vvYAA/u1GBboVsJ+AlJfQaVj/dJW7zOlIyHigFF1s7zYakHn5EoNLw8j6gq2I2uEP/jKfsJqwOKWk3bJ0IAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADQBACdASoUABkAPwFurU6rJqQiMAgBYCAJQBbZBDvx7sk57SBPvjdOeDmUiYzkwAD+7TWImUeCtlKPnWWTGl+gMH5rGmu+s74vbWSYH/2/7yJS4qPoqWBujm4pFKMBldqwGy4AAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAABQBQCdASoUABkAPwFsr1ArJiQiqA1RYCAJQBadAiOdoTgtaABjNvMXoYCyVgDky7avioAA/u1BkdWRBE/aGiEZsxlBZp62H7DNE1MtTfO2KOexRnnYVUDJ6unt6MiXjXl9BOZ0EoEQA4TRqq423LgbgjKBwQRn/fqw8gAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAwCdASoUABkAPvVorE6qpiSiMAwBUB6JYgCdACHfSIjqslSTYQQAAP7tRi5aR+L8IPyYgjh91tMRHVYXsEvGf/gF5rZ4M3SjLmm/zrdCMCBVW3O2ts2JyNDkQVxPnAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADwBACdASoUABkAPwF0slIrJqSiqAqpYCAJQBOmWOgv/9qMmkv1PHdKZx7/z7s9AAAA/udBONZ76ubavw9GDruop92alccYdgKc/vDcjCFPeE8qXGmwDiPS+2He/NkpRewa5ww6PlWGhqor6oD/7dTuL1ePHIChAAeMX8CrbDA0FxQAAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAACQBQCdASoUABkAPwFwqU6rJqOiMBgMAWAgCWwAnTKEeZj2QTdiXcyIuqZNOcR0RJZzU+gAAAD+7UYFcV9gmTyphnylDAanT/fcdiL7v6e7pml2UcZoejMrjbWR4lupZxkGBtv1Sb1bSWMaFtnpU1lmdBA9et+s6jTdfWOBIvSKga8JnJuvwQAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAACwBACdASoUABkAPvVmqE6qpaOiMAwBUB6JQBadBDvxpfudfV061ZfA60hoDjUAAP7tRfF1yPoiFCm85h3GqE/GmHqFaXiDEZQ/fM/JbA6w/6uCbtndr8DD9S9ud89yt4OTDC6cAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQBACdASoUABkAPwFyr0+rJyQiMAgBYCAJZQC3uCHe1MlUjcUYHnTKAAD+6oxtk6YRByU9z89TCKnZLEc7ff5h6ZwwtHOmf8PkpahmjSwrPfBwXdn2xAjRgAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABQBQCdASoUABkAPwFusFCrJiSisBgIAWAgCWwAtsgQ7/H6gaYBlhbollz7xBlugCthoAAA/u03Bb2iLyNcB6W5MCDX/nViHt5P3QB3UGXTaRpKSqSWvTnjjlpYj66c40T2FCD4rtnxEw4dggkUYnAmOcEAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAACQBACdASoUABkAPu1kp06ppiOpt/qoATAdiWkAwZAh34wu6KZXiPCcDsSOsAAA/u/Bsb+OFMKNX/cFY48gwNzCymV2uMPP9oWE8RsdFkbMAtNnGXsoDAAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwBACdASoUABkAPwFqrU6rJiQiMAgBYCAJZwDO7CHfjVzA6BeHCgz3/kAA/up5il9qXHeZTcRFo3rMm+/vMHcUo4sN/jSda6wVw0/AIncAAAAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAABQBQCdASoUABkAPv1qrU6rJiQiMBgMAWAfiUAWI9mAL4eA8z4bNnHeba3r9PSGgl193wAA/u1ha08gyMIM6TTo8FKpaDjfEmi+lKfKYNH0tfRhxtZHklG2KcWshOczEHEdmUmuayEdNczY8/E+4K2lywChNeOI5HAIQ8woAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACwBACdASoUABkAPv1sq06rJiOiMBgMAWAfiWYAtOgQ6yNy9z6Vxei5o8OvM54AAP7tRlY43x9BrW9KhV3DaFhHlwNM5m6AR6d1KaqXbTBgqCNE12VOjE7/YLhRLp9rMxGoY85iptN0RrsAAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAACwBQCdASoUABkAPwF0rlKrJqQiqAqpYCAJbACxH2iBSBTlFXgO3h1rTeYlZodw42pThnGNRwAA/uqMh4/2Xl2zdvWrZcihFieot4IB0ZpDaHrkmSlk+0NDYL76EheDNT/QFQuWVdcYWDRaY/NKTMAQ1MAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAABwBQCdASoUABkAPvlkqk6qpSOiN/VYAVAfCUATpmHQNO1NxfqpOTBj62+CmL/k9a2eoFegAP7tWA3+HPgWCCV36tGuSkuUJeMZuPMRIoZm0994pUqRvnuKKNDTbnqoLWUbFdFSrIAMrvtQ8JbhEHJxAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAACwBQCdASoUABkAPwFysFIrJqSiqAqpYCAJagCdMt8BqE5RXwRm/PhkJ6jFWlcf3NM/jR/YEaAA/u1at/rbm9E8sInJiQ8ah+6EubitcOL3bZ4G5BsDyXgPjyGh8vjxD7b/AcX8lV1YgIoc/+8bVgYRGMDaJiFE/xDMAk57V9stTmdvxB9oAAAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABQBACdASoUABkAPwFwrFErJiQiqA1RYCAJZwDLLA9m1+Sjcy7Lk6k9N2KAAP7qlsWeIPfMly8GDAVojmDf2Nlv9sZv8nWvOGSXdGyLuHrBJHyPoAAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAQBQCdASoUABkAPwFqsFErJaSisBgIAWAgCUAABfVPbf0mDmxU/QrMzmyzsfiU9rQAAP7qr/qEMyeu3Djua+K6jYjqhYfo2ZfMnbt+N0FomnPaG7ck9N824rdlmCMiIpa4yfWH54SZGYf6VJvyyrlK6kvfsAAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACwAwCdASoUABkAPwF4s1OrJySiqAgBYCAJQBZwAsy56X4sifhAAAD+7cRo3iXKjV4qbjokZIFQbVhDm3srk6AkVJzCChDZYHWY6j5g516dmhXoWQAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAAAwBQCdASoUABkAPvFmrE6ppaSiMAwBMB4JagCdM1XDTq7NaOBFGELYdBQnKdzbo6smAAD+7TcJFRPB1uPwH1uEovPoq4XL+/sqD6qiPeYeoTQhtB1oQ9/7Ok7PG1RwJXeG7AfUnl6iN6wc+OekDh5EqmFtddqQCIEShVag+mDS09o+TK96FGhAl/G/bYcAAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQBACdASoUABkAPwF4tFOrJyUiqAgBYCAJQBdgAiKo/0w4TGNGFz2WOAHaDAAA/up5GHHKHVuWXLav8RIKs7L0R1ilr0yzJBJYTtkmjThDfmtC3MDgi8BWIu4/bZAAAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABwBACdASoUABkAPwFqrU8rJiQiMAgBYCAJbAC1F9SB0ae0WbAvK73VS7zgAAD+6nl52wJ6mCc4EGGTIjp/8AhpMDrPQweNYdUOsYK1tTWGTBFu0RhF/LQOY0bcd3JyweNs0BxgAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABwBQCdASoUABkAPwFyqE8rJ6OiMBgMAWAgCWQAnTKAAaoCcgkNnDpd0B7Fr2htv2RmNeMAAP7qeKz3BeFh+VEE1340AQVpwpe97uxYXUZxChjYKxTu71v3R+9tsuqK5e7NJ6t7//gt1uRoQjrSe8JqEpIAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABwBQCdASoUABkAPwFqrE8rJaQiMBgMAWAgCWMAAC51nkxMexIDcnf+b+8knSkXfMKEoI4AAP7tRuKlyWCoBpjSaEdRbBZcT1Me9XZQpffYF6OHxLpK/wSL0fPA/t4bSwAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACwBACdASoUABkAPwFqr1ErJaQisBgIAWAgCWQAuzMOgan7AGMqy4jHpUNRwJYAAP7nHRQZAhjaaI/IQydSCMyF/ljH5A34JLteFhweZm3PWcuZTZacVKVbBUbclztAAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAACwBACdASoUABkAPvFmrE6ppiSiMAwBMB4JZgC/OCHf3+ejsiq2MLv4g1ukd7mgAP7vwa8Fu26p+hzyvjRm0b53VXiImQl1dIp7sjloPGjYQ66HNxXNtG7dQfJXL5aoK/dSGo0NAAAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwBACdASoUABkAPwF4tFQrJySjKAgBYCAJZQC+SBZlyS23SBL1uBRhq4AA/u3EMKekG2XmA5OFkKJv+DAYo693IFJxUpHec24VuHxWlv09/gAAAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAACQBQCdASoUABkAPwFsq06rJiOiMAgBYCAJbAC/Z8CB0bHIevASwIb/0CXj5goQXrHDMhEeAAD+6nO522z+BhU2rfLes/TuVbpWq6qdGWgC4guCOq/JhaHkr/4Ugxz9onUYVt9Lia1DNUGbtp3619FAY3d6RbB8OVq6KCw8ttVbBUYT3Qq/VbuhTk26W4MvAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAABwBQCdASoUABkAPwF0sFIrJqSiqAqpYCAJagCdMtVCmBTkTvFxOWKmIg1qCbn7pAVSCQQAAP7tWDK04CUkW8GOcLAPurIcdAf1uQ2MDrNjPvPF59SkUOAQ18/h/Crf6cdRj8GGzhZqTa67JU7Iec7Zb/wcZUSjn/IlqhULZW+MlpkAAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAADQBACdASoUABkAPwFyr1KrJqQiqAqpYCAJYgC06BEZ3ru81cTvnzgAnZwxW/p6AAD+6nmQIU+QdUwJxO5kt3E941ZgpCbZfvlot3b2RhEXTgQwqKMJoQPvXFXuL88K7S5quLl3m/SpT4C99u7J4dN1WhvuYT738gAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAADQBACdASoUABkAPwF0r1KrJqQiqAqpYCAJYgCsM2QBouIHNWL2UYYoHygwyDYhQAD+5xxDNY4vXTR+1Jgi1mp4J5Q3CfS4XuCP9rucmVHmY9L0jj7lmog3sSJxc7ye/DhbjrvinG9/50544Gk7HqPYbXtnDHhnoBgEAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwBACdASoUABkAPv1mrk6rJSSiMBgMAWAfiWIAqPQQ8KXS1yBtor4CrdgA/u1WQhi8nTwsGdolL5UjGZdYv9xFzNGYK9Ez3AJB5dK0BLKA/b+uy+B14/iI27f8gMkBJAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADQBACdASoUABkAPvFoqE6ppiQiMAwBMB4JYwC+SCHgT4iOFjqoi1C8MNZGq+0LAAD+7UYFeggKcnuWRMkfwf3UyhtfEMqlPnbGdViY0nl5rYYKqUxquuZgAAAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwBACdASoUABkAPwFys1GrJqSiqAqpYCAJYwC3uA9km1Viyj3A/q8pbWB56c97HAAA/uqWwZAm7qxsUhOUnZ7aXjb2WQ9njZmTrloIWqtKzxA/a8dlY+fjdDnBZCTE2I4zp22OL9SEUmgAugAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAACwBACdASoUABkAPwFur08rJqSiMAgBYCAJZQAAW+jXbdo1YnjSJNg+mag/bVxEAP7tWJqxp+6SYxEXiL4x4NBLCu9fn1vzfTeSbNkX/VvhOIyfOEEOLB/ywDCbmeV23JTTp2Fzg+mnhKPn3mT8KE4BQd+cL8MesnecTNIQwiWR8EAA",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-21-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-38-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-39-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-36-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-18-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-32-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-25-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQBACdASoUABkAPwFqq08rJiOiMAgBYCAJZyzAA3QAhJXmCtt0NNrXe+XmV/aYAAD+7WFrLgoEXyviPdZTJ5aPKhBMCFZ6EdbuaUwsz3Dh1/0W6qPAuPCDtj3gAAAA",
+        "priority": "Low"
+      }
+    ],
+    "images": [
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-21-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-38-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-39-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-36-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-18-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-32-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-25-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      }
+    ]
+  },
+  {
+    "label": "after",
+    "route": "/catalog/",
+    "run": 3,
+    "profile": {
+      "viewport": "390x844",
+      "dpr": 3,
+      "downloadMbps": 1.6,
+      "uploadMbps": 0.75,
+      "latencyMs": 150,
+      "cpuSlowdown": 4,
+      "cache": "disabled"
+    },
+    "lcpMs": 2028,
+    "cls": 0.08003255906874689,
+    "lcpElement": "H1 ",
+    "firstScreenReadyMs": 2868.6999999955297,
+    "imageBytes": 154821,
+    "imageRequests": 48,
+    "maxConcurrentImageRequests": 9,
+    "requests": [
+      {
+        "url": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQBACdASoUABkAPwFurk6rJqQiMAgBYCAJZQDG9CHfUFWHtGuViFU+AAD+5wnaxtZ8ZXsnVW1GzHczJSUGDFPjZmiQeowMTAAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACQBACdASoUABkAPwFurlCrJiQisBgIAWAgCWUAuwAQ7+H3itaxevVwbwC7zUAA/upzkxm5WGn7CHEmt0X6Wqq/BY50fLmCckhAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAACwBACdASoUABkAPwFuqU8rJqOiMBgMAWAgCWUAwNwQ7+H/w+zmdCqv0EM0ed+AAP7qZosgI+xOSQkZuQJYv5DKZybk57iOrMRgaYlZ69SdzJ+ZuuyA3vmzBCTsTn55LWe47jE/CL5F6AAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAwCdASoUABkAPwFsrE8rJiQiMAgBYCAJZQC/7CHfjUCWHErjt6AA/ucabQlL2F7qjuynbDfkopJbyBxNw/G73QAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADwBACdASoUABkAPwFor1GrJSQisBgIAWAgCWgAuwAQ8AUyL6Vihj7PDivJjc/vvYAA/u1GBboVsJ+AlJfQaVj/dJW7zOlIyHigFF1s7zYakHn5EoNLw8j6gq2I2uEP/jKfsJqwOKWk3bJ0IAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADQBACdASoUABkAPwFurU6rJqQiMAgBYCAJQBbZBDvx7sk57SBPvjdOeDmUiYzkwAD+7TWImUeCtlKPnWWTGl+gMH5rGmu+s74vbWSYH/2/7yJS4qPoqWBujm4pFKMBldqwGy4AAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAABQBQCdASoUABkAPwFsr1ArJiQiqA1RYCAJQBadAiOdoTgtaABjNvMXoYCyVgDky7avioAA/u1BkdWRBE/aGiEZsxlBZp62H7DNE1MtTfO2KOexRnnYVUDJ6unt6MiXjXl9BOZ0EoEQA4TRqq423LgbgjKBwQRn/fqw8gAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAwCdASoUABkAPvVorE6qpiSiMAwBUB6JYgCdACHfSIjqslSTYQQAAP7tRi5aR+L8IPyYgjh91tMRHVYXsEvGf/gF5rZ4M3SjLmm/zrdCMCBVW3O2ts2JyNDkQVxPnAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADwBACdASoUABkAPwF0slIrJqSiqAqpYCAJQBOmWOgv/9qMmkv1PHdKZx7/z7s9AAAA/udBONZ76ubavw9GDruop92alccYdgKc/vDcjCFPeE8qXGmwDiPS+2He/NkpRewa5ww6PlWGhqor6oD/7dTuL1ePHIChAAeMX8CrbDA0FxQAAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAACQBQCdASoUABkAPwFwqU6rJqOiMBgMAWAgCWwAnTKEeZj2QTdiXcyIuqZNOcR0RJZzU+gAAAD+7UYFcV9gmTyphnylDAanT/fcdiL7v6e7pml2UcZoejMrjbWR4lupZxkGBtv1Sb1bSWMaFtnpU1lmdBA9et+s6jTdfWOBIvSKga8JnJuvwQAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAACwBACdASoUABkAPvVmqE6qpaOiMAwBUB6JQBadBDvxpfudfV061ZfA60hoDjUAAP7tRfF1yPoiFCm85h3GqE/GmHqFaXiDEZQ/fM/JbA6w/6uCbtndr8DD9S9ud89yt4OTDC6cAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQBACdASoUABkAPwFyr0+rJyQiMAgBYCAJZQC3uCHe1MlUjcUYHnTKAAD+6oxtk6YRByU9z89TCKnZLEc7ff5h6ZwwtHOmf8PkpahmjSwrPfBwXdn2xAjRgAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABQBQCdASoUABkAPwFusFCrJiSisBgIAWAgCWwAtsgQ7/H6gaYBlhbollz7xBlugCthoAAA/u03Bb2iLyNcB6W5MCDX/nViHt5P3QB3UGXTaRpKSqSWvTnjjlpYj66c40T2FCD4rtnxEw4dggkUYnAmOcEAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAACQBACdASoUABkAPu1kp06ppiOpt/qoATAdiWkAwZAh34wu6KZXiPCcDsSOsAAA/u/Bsb+OFMKNX/cFY48gwNzCymV2uMPP9oWE8RsdFkbMAtNnGXsoDAAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwBACdASoUABkAPwFqrU6rJiQiMAgBYCAJZwDO7CHfjVzA6BeHCgz3/kAA/up5il9qXHeZTcRFo3rMm+/vMHcUo4sN/jSda6wVw0/AIncAAAAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAABQBQCdASoUABkAPv1qrU6rJiQiMBgMAWAfiUAWI9mAL4eA8z4bNnHeba3r9PSGgl193wAA/u1ha08gyMIM6TTo8FKpaDjfEmi+lKfKYNH0tfRhxtZHklG2KcWshOczEHEdmUmuayEdNczY8/E+4K2lywChNeOI5HAIQ8woAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACwBACdASoUABkAPv1sq06rJiOiMBgMAWAfiWYAtOgQ6yNy9z6Vxei5o8OvM54AAP7tRlY43x9BrW9KhV3DaFhHlwNM5m6AR6d1KaqXbTBgqCNE12VOjE7/YLhRLp9rMxGoY85iptN0RrsAAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAACwBQCdASoUABkAPwF0rlKrJqQiqAqpYCAJbACxH2iBSBTlFXgO3h1rTeYlZodw42pThnGNRwAA/uqMh4/2Xl2zdvWrZcihFieot4IB0ZpDaHrkmSlk+0NDYL76EheDNT/QFQuWVdcYWDRaY/NKTMAQ1MAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAABwBQCdASoUABkAPvlkqk6qpSOiN/VYAVAfCUATpmHQNO1NxfqpOTBj62+CmL/k9a2eoFegAP7tWA3+HPgWCCV36tGuSkuUJeMZuPMRIoZm0994pUqRvnuKKNDTbnqoLWUbFdFSrIAMrvtQ8JbhEHJxAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAACwBQCdASoUABkAPwFysFIrJqSiqAqpYCAJagCdMt8BqE5RXwRm/PhkJ6jFWlcf3NM/jR/YEaAA/u1at/rbm9E8sInJiQ8ah+6EubitcOL3bZ4G5BsDyXgPjyGh8vjxD7b/AcX8lV1YgIoc/+8bVgYRGMDaJiFE/xDMAk57V9stTmdvxB9oAAAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABQBACdASoUABkAPwFwrFErJiQiqA1RYCAJZwDLLA9m1+Sjcy7Lk6k9N2KAAP7qlsWeIPfMly8GDAVojmDf2Nlv9sZv8nWvOGSXdGyLuHrBJHyPoAAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAQBQCdASoUABkAPwFqsFErJaSisBgIAWAgCUAABfVPbf0mDmxU/QrMzmyzsfiU9rQAAP7qr/qEMyeu3Djua+K6jYjqhYfo2ZfMnbt+N0FomnPaG7ck9N824rdlmCMiIpa4yfWH54SZGYf6VJvyyrlK6kvfsAAA",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACwAwCdASoUABkAPwF4s1OrJySiqAgBYCAJQBZwAsy56X4sifhAAAD+7cRo3iXKjV4qbjokZIFQbVhDm3srk6AkVJzCChDZYHWY6j5g516dmhXoWQAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAAAwBQCdASoUABkAPvFmrE6ppaSiMAwBMB4JagCdM1XDTq7NaOBFGELYdBQnKdzbo6smAAD+7TcJFRPB1uPwH1uEovPoq4XL+/sqD6qiPeYeoTQhtB1oQ9/7Ok7PG1RwJXeG7AfUnl6iN6wc+OekDh5EqmFtddqQCIEShVag+mDS09o+TK96FGhAl/G/bYcAAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQBACdASoUABkAPwF4tFOrJyUiqAgBYCAJQBdgAiKo/0w4TGNGFz2WOAHaDAAA/up5GHHKHVuWXLav8RIKs7L0R1ilr0yzJBJYTtkmjThDfmtC3MDgi8BWIu4/bZAAAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABwBACdASoUABkAPwFqrU8rJiQiMAgBYCAJbAC1F9SB0ae0WbAvK73VS7zgAAD+6nl52wJ6mCc4EGGTIjp/8AhpMDrPQweNYdUOsYK1tTWGTBFu0RhF/LQOY0bcd3JyweNs0BxgAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABwBQCdASoUABkAPwFyqE8rJ6OiMBgMAWAgCWQAnTKAAaoCcgkNnDpd0B7Fr2htv2RmNeMAAP7qeKz3BeFh+VEE1340AQVpwpe97uxYXUZxChjYKxTu71v3R+9tsuqK5e7NJ6t7//gt1uRoQjrSe8JqEpIAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABwBQCdASoUABkAPwFqrE8rJaQiMBgMAWAgCWMAAC51nkxMexIDcnf+b+8knSkXfMKEoI4AAP7tRuKlyWCoBpjSaEdRbBZcT1Me9XZQpffYF6OHxLpK/wSL0fPA/t4bSwAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACwBACdASoUABkAPwFqr1ErJaQisBgIAWAgCWQAuzMOgan7AGMqy4jHpUNRwJYAAP7nHRQZAhjaaI/IQydSCMyF/ljH5A34JLteFhweZm3PWcuZTZacVKVbBUbclztAAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAACwBACdASoUABkAPvFmrE6ppiSiMAwBMB4JZgC/OCHf3+ejsiq2MLv4g1ukd7mgAP7vwa8Fu26p+hzyvjRm0b53VXiImQl1dIp7sjloPGjYQ66HNxXNtG7dQfJXL5aoK/dSGo0NAAAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwBACdASoUABkAPwF4tFQrJySjKAgBYCAJZQC+SBZlyS23SBL1uBRhq4AA/u3EMKekG2XmA5OFkKJv+DAYo693IFJxUpHec24VuHxWlv09/gAAAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAACQBQCdASoUABkAPwFsq06rJiOiMAgBYCAJbAC/Z8CB0bHIevASwIb/0CXj5goQXrHDMhEeAAD+6nO522z+BhU2rfLes/TuVbpWq6qdGWgC4guCOq/JhaHkr/4Ugxz9onUYVt9Lia1DNUGbtp3619FAY3d6RbB8OVq6KCw8ttVbBUYT3Qq/VbuhTk26W4MvAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAABwBQCdASoUABkAPwF0sFIrJqSiqAqpYCAJagCdMtVCmBTkTvFxOWKmIg1qCbn7pAVSCQQAAP7tWDK04CUkW8GOcLAPurIcdAf1uQ2MDrNjPvPF59SkUOAQ18/h/Crf6cdRj8GGzhZqTa67JU7Iec7Zb/wcZUSjn/IlqhULZW+MlpkAAAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAADQBACdASoUABkAPwFyr1KrJqQiqAqpYCAJYgC06BEZ3ru81cTvnzgAnZwxW/p6AAD+6nmQIU+QdUwJxO5kt3E941ZgpCbZfvlot3b2RhEXTgQwqKMJoQPvXFXuL88K7S5quLl3m/SpT4C99u7J4dN1WhvuYT738gAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAADQBACdASoUABkAPwF0r1KrJqQiqAqpYCAJYgCsM2QBouIHNWL2UYYoHygwyDYhQAD+5xxDNY4vXTR+1Jgi1mp4J5Q3CfS4XuCP9rucmVHmY9L0jj7lmog3sSJxc7ye/DhbjrvinG9/50544Gk7HqPYbXtnDHhnoBgEAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwBACdASoUABkAPv1mrk6rJSSiMBgMAWAfiWIAqPQQ8KXS1yBtor4CrdgA/u1WQhi8nTwsGdolL5UjGZdYv9xFzNGYK9Ez3AJB5dK0BLKA/b+uy+B14/iI27f8gMkBJAA=",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADQBACdASoUABkAPvFoqE6ppiQiMAwBMB4JYwC+SCHgT4iOFjqoi1C8MNZGq+0LAAD+7UYFeggKcnuWRMkfwf3UyhtfEMqlPnbGdViY0nl5rYYKqUxquuZgAAAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwBACdASoUABkAPwFys1GrJqSiqAqpYCAJYwC3uA9km1Viyj3A/q8pbWB56c97HAAA/uqWwZAm7qxsUhOUnZ7aXjb2WQ9njZmTrloIWqtKzxA/a8dlY+fjdDnBZCTE2I4zp22OL9SEUmgAugAAAA==",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAACwBACdASoUABkAPwFur08rJqSiMAgBYCAJZQAAW+jXbdo1YnjSJNg+mag/bVxEAP7tWJqxp+6SYxEXiL4x4NBLCu9fn1vzfTeSbNkX/VvhOIyfOEEOLB/ywDCbmeV23JTTp2Fzg+mnhKPn3mT8KE4BQd+cL8MesnecTNIQwiWR8EAA",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-21-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-38-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-39-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-36-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-18-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-32-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-25-studio-640.avif",
+        "priority": "Low"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQBACdASoUABkAPwFqq08rJiOiMAgBYCAJZyzAA3QAhJXmCtt0NNrXe+XmV/aYAAD+7WFrLgoEXyviPdZTJ5aPKhBMCFZ6EdbuaUwsz3Dh1/0W6qPAuPCDtj3gAAAA",
+        "priority": "Low"
+      }
+    ],
+    "images": [
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-21-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-22-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-38-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-39-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-36-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-18-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-32-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "http://localhost:3015/lume-candles/photography/optimized/MEDIA-25-studio-640.avif",
+        "width": 166,
+        "naturalWidth": 179,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      },
+      {
+        "src": "",
+        "width": 166,
+        "naturalWidth": 0,
+        "loading": "lazy",
+        "priority": "auto"
+      }
+    ]
+  }
+]

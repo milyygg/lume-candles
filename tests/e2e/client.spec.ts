@@ -5,7 +5,7 @@ test("all sources, aromas and studio gallery are accessible",async({page})=>{
  await page.goto("/catalog/embrace");
  await expect(page.getByLabel("Аромат",{exact:true}).locator("option")).toHaveCount(11);
  await page.getByLabel("Аромат",{exact:true}).selectOption("vanilla");await expect(page.locator(".price")).toContainText("1 700");
- await page.getByRole("button",{name:"Другой вид",exact:true}).click();await expect(page.locator(".detail-image-frame img")).toHaveAttribute("src","/photography/MEDIA-21.jpg");
+ await page.getByRole("button",{name:"Другой вид",exact:true}).click();await expect(page.locator(".detail-image-frame img")).toHaveAttribute("src",/\/photography\/optimized\/MEDIA-21-original-\d+\.webp/);
  await page.getByRole("button",{name:"Светлый фон",exact:true}).click();await expect(page.locator(".detail-image-frame img")).toHaveAttribute("src",/studio/);
 });
 test("handoff copies full basket and gracefully handles clipboard denial",async({page})=>{

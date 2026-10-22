@@ -1,0 +1,11 @@
+{
+  "url": "http://localhost:3015/lume-candles",
+  "checkedAt": "2026-10-22T11:38:10.458Z",
+  "pages": 50,
+  "productPages": 40,
+  "studioPhotos": 40,
+  "originalPhotos": 40,
+  "assetRequests": 160,
+  "footerOnEveryPage": true,
+  "sourceAndShortcutHashesUnchanged": true
+}

@@ -48,7 +48,7 @@ export function CartPage() {
               product = findProduct(item.productId)!;
             return (
               <article className="cart-item" key={key}>
-                <Photograph source={product.image} alt={product.name} />
+                <Photograph source={product.image} alt={product.name} sizes="(max-width: 600px) 80px, 170px" />
                 <div className="cart-item-content">
                   <h2>{product.name}</h2>
                   <p>

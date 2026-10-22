@@ -13,3 +13,7 @@ playwright-report/
 
 # Local visual QA evidence stays in the workspace.
 docs/client-redesign/**/*.png
+
+# High-resolution client presentation and local performance evidence.
+/Презентация для клиентки/
+docs/final-optimization/**/*.png
