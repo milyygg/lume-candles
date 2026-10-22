@@ -46,11 +46,13 @@ describe("integer pricing and allowed configurations", () => {
       ]),
     ).toBe(6000));
   it("charges available aromas only", () => {
+    const previous = products[0].aromas;
+    products[0].aromas = [...previous];
     products[0].aromas.push({ id: "test-aroma", label: "Тестовый аромат" });
     try {
       expect(unitPrice({ ...item, aroma: "test-aroma" })).toBe(1700);
     } finally {
-      products[0].aromas = [];
+      products[0].aromas = previous;
     }
   });
   it("rejects unknown aroma", () =>

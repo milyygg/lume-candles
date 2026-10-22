@@ -1,13 +1,14 @@
 import { test, expect } from "@playwright/test";
 import fs from "node:fs/promises";
 
-test("redesign screenshots, original photos, fonts and reduced motion", async ({
+test("client redesign screenshots, studio photos, fonts and reduced motion", async ({
   page,
 }, testInfo) => {
+  test.slow();
   const errors: string[] = [];
   page.on("pageerror", (error) => errors.push(error.message));
   await page.emulateMedia({ reducedMotion: "reduce" });
-  const folder = `test-results/screenshots/${testInfo.project.name}`;
+  const folder = `docs/client-redesign/screenshots/${testInfo.project.name}`;
   await fs.mkdir(folder, { recursive: true });
   for (const [route, name] of [
     ["/", "home"],
@@ -26,7 +27,7 @@ test("redesign screenshots, original photos, fonts and reduced motion", async ({
     });
     expect(
       await page.evaluate(
-        () => document.documentElement.scrollWidth <= innerWidth,
+        () => document.documentElement.scrollWidth <= document.documentElement.clientWidth,
       ),
     ).toBe(true);
     expect(
@@ -53,7 +54,7 @@ test("redesign screenshots, original photos, fonts and reduced motion", async ({
         .screenshot({ path: `${folder}/card.png` });
       await expect(page.locator(".product-photo img").first()).toHaveAttribute(
         "src",
-        /\/photography\/MEDIA-/,
+        /\/photography\/(studio\/)?MEDIA-/,
       );
       expect(
         await page
@@ -63,7 +64,7 @@ test("redesign screenshots, original photos, fonts and reduced motion", async ({
       ).toBe("contain");
     }
   }
-  await page.getByLabel("Более 9 до 20 см").check();
+  await page.getByLabel("9-20 см").check();
   await page.getByLabel("Соевый воск").check();
   await page.getByLabel("Дополнительный декор").check();
   await page.getByRole("button", { name: "Увеличить количество" }).click();
@@ -77,7 +78,7 @@ test("redesign screenshots, original photos, fonts and reduced motion", async ({
   await expect(page.locator(".summary-total")).toContainText("4 800");
   expect(
     await page.evaluate(
-      () => document.documentElement.scrollWidth <= innerWidth,
+      () => document.documentElement.scrollWidth <= document.documentElement.clientWidth,
     ),
   ).toBe(true);
   await page.screenshot({ path: `${folder}/cart.png`, fullPage: true });
@@ -85,7 +86,7 @@ test("redesign screenshots, original photos, fonts and reduced motion", async ({
   await expect(page.getByRole("heading", { name: "Почти ваша" })).toBeVisible();
   expect(
     await page.evaluate(
-      () => document.documentElement.scrollWidth <= innerWidth,
+      () => document.documentElement.scrollWidth <= document.documentElement.clientWidth,
     ),
   ).toBe(true);
   await page.screenshot({ path: `${folder}/checkout.png`, fullPage: true });

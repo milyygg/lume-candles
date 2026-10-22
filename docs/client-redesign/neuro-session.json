@@ -1,0 +1,336 @@
+{
+  "meta": [
+    {
+      "id": "21",
+      "file": "public/photography/studio/MEDIA-21-studio.png"
+    },
+    {
+      "id": "22",
+      "file": "public/photography/studio/MEDIA-22-studio.png"
+    },
+    {
+      "id": "38",
+      "file": "public/photography/studio/MEDIA-38-studio.png"
+    },
+    {
+      "id": "39",
+      "file": "public/photography/studio/MEDIA-39-studio.png"
+    },
+    {
+      "id": "36",
+      "file": "public/photography/studio/MEDIA-36-studio.png"
+    },
+    {
+      "id": "18",
+      "file": "public/photography/studio/MEDIA-18-studio.png"
+    },
+    {
+      "id": "10",
+      "file": "public/photography/studio/MEDIA-10-studio.png"
+    },
+    {
+      "id": "11",
+      "file": "public/photography/studio/MEDIA-11-studio.png"
+    },
+    {
+      "id": "12",
+      "file": "public/photography/studio/MEDIA-12-studio-v2.png"
+    },
+    {
+      "id": "13",
+      "file": "public/photography/studio/MEDIA-13-studio.png"
+    },
+    {
+      "id": "14",
+      "file": "public/photography/studio/MEDIA-14-studio.png"
+    },
+    {
+      "id": "15",
+      "file": "public/photography/studio/MEDIA-15-studio.png"
+    },
+    {
+      "id": "16",
+      "file": "public/photography/studio/MEDIA-16-studio.png"
+    },
+    {
+      "id": "17",
+      "file": "public/photography/studio/MEDIA-17-studio.png"
+    },
+    {
+      "id": "19",
+      "file": "public/photography/studio/MEDIA-19-studio.png"
+    },
+    {
+      "id": "20",
+      "file": "public/photography/studio/MEDIA-20-studio.png"
+    },
+    {
+      "id": "23",
+      "file": "public/photography/studio/MEDIA-23-studio.png"
+    },
+    {
+      "id": "24",
+      "file": "public/photography/studio/MEDIA-24-studio.png"
+    },
+    {
+      "id": "25",
+      "file": "public/photography/studio/MEDIA-25-studio.png"
+    },
+    {
+      "id": "26",
+      "file": "public/photography/studio/MEDIA-26-studio.png"
+    },
+    {
+      "id": "27",
+      "file": "public/photography/studio/MEDIA-27-studio.png"
+    },
+    {
+      "id": "28",
+      "file": "public/photography/studio/MEDIA-28-studio.png"
+    },
+    {
+      "id": "29",
+      "file": "public/photography/studio/MEDIA-29-studio.png"
+    },
+    {
+      "id": "30",
+      "file": "public/photography/studio/MEDIA-30-studio.png"
+    },
+    {
+      "id": "31",
+      "file": "public/photography/studio/MEDIA-31-studio.png"
+    },
+    {
+      "id": "32",
+      "file": "public/photography/studio/MEDIA-32-studio.png"
+    },
+    {
+      "id": "33",
+      "file": "public/photography/studio/MEDIA-33-studio.png"
+    },
+    {
+      "id": "34",
+      "file": "public/photography/studio/MEDIA-34-studio.png"
+    },
+    {
+      "id": "35",
+      "file": "public/photography/studio/MEDIA-35-studio.png"
+    },
+    {
+      "id": "37",
+      "file": "public/photography/studio/MEDIA-37-studio.png"
+    },
+    {
+      "id": "40",
+      "file": "public/photography/studio/MEDIA-40-studio.png"
+    },
+    {
+      "id": "01",
+      "file": "public/photography/studio/MEDIA-01-studio.png"
+    },
+    {
+      "id": "02",
+      "file": "public/photography/studio/MEDIA-02-studio.png"
+    },
+    {
+      "id": "03",
+      "file": "public/photography/studio/MEDIA-03-studio.png"
+    },
+    {
+      "id": "04",
+      "file": "public/photography/studio/MEDIA-04-studio.png"
+    },
+    {
+      "id": "05",
+      "file": "public/photography/studio/MEDIA-05-studio.png"
+    },
+    {
+      "id": "06",
+      "file": "public/photography/studio/MEDIA-06-studio.png"
+    },
+    {
+      "id": "07",
+      "file": "public/photography/studio/MEDIA-07-studio.png"
+    },
+    {
+      "id": "08",
+      "file": "public/photography/studio/MEDIA-08-studio.png"
+    },
+    {
+      "id": "09",
+      "file": "public/photography/studio/MEDIA-09-studio.png"
+    }
+  ],
+  "prompts": [
+    {
+      "id": "21",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied candle product photograph. Create one refined commercial studio photograph of EXACTLY the same candle product(s), maintaining shape, silhouette, proportions, wax colors, surface detail, number of figures and recognizable ornament. Replace background and supporting clutter with a seamless very light warm ivory studio background and matching surface, realistic soft directional daylight and contact shadows. Remove trays, hands, props, packaging, writing and background objects. Do not add new items. Product(s) fully visible with ample margin, vertical 4:5 composition, crisp true material texture, high resolution photorealistic boutique catalogue. Keep cotton wicks, unlit. No text, no logo, no typography, no collage. Preserve the intertwined embracing two faceless figures, remove wood slice."
+    },
+    {
+      "id": "22",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied candle product photograph. Create one refined commercial studio photograph of EXACTLY the same candle product(s), maintaining shape, silhouette, proportions, wax colors, surface detail, number of figures and recognizable ornament. Replace background and supporting clutter with a seamless very light warm ivory studio background and matching surface, realistic soft directional daylight and contact shadows. Remove trays, hands, props, packaging, writing and background objects. Do not add new items. Product(s) fully visible with ample margin, vertical 4:5 composition, crisp true material texture, high resolution photorealistic boutique catalogue. Keep cotton wicks, unlit. No text, no logo, no typography, no collage. Preserve the ivory bear made of tiny roses and its white ribbed bow."
+    },
+    {
+      "id": "38",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied candle product photograph. Create one refined commercial studio photograph of EXACTLY the same candle product(s), maintaining shape, silhouette, proportions, wax colors, surface detail, number of figures and recognizable ornament. Replace background and supporting clutter with a seamless very light warm ivory studio background and matching surface, realistic soft directional daylight and contact shadows. Remove trays, hands, props, packaging, writing and background objects. Do not add new items. Product(s) fully visible with ample margin, vertical 4:5 composition, crisp true material texture, high resolution photorealistic boutique catalogue. Keep cotton wicks, unlit. No text, no logo, no typography, no collage. Preserve BOTH swan candles: ivory front, black rear, feather relief and curved necks."
+    },
+    {
+      "id": "39",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied candle product photograph. Create one refined commercial studio photograph of EXACTLY the same candle product(s), maintaining shape, silhouette, proportions, wax colors, surface detail, number of figures and recognizable ornament. Replace background and supporting clutter with a seamless very light warm ivory studio background and matching surface, realistic soft directional daylight and contact shadows. Remove trays, hands, props, packaging, writing and background objects. Do not add new items. Product(s) fully visible with ample margin, vertical 4:5 composition, crisp true material texture, high resolution photorealistic boutique catalogue. Keep cotton wicks, unlit. No text, no logo, no typography, no collage. Preserve classical David head bust, candle opening at top, extinguish flame."
+    },
+    {
+      "id": "36",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied candle product photograph. Create one refined commercial studio photograph of EXACTLY the same candle product(s), maintaining shape, silhouette, proportions, wax colors, surface detail, number of figures and recognizable ornament. Replace background and supporting clutter with a seamless very light warm ivory studio background and matching surface, realistic soft directional daylight and contact shadows. Remove trays, hands, props, packaging, writing and background objects. Do not add new items. Product(s) fully visible with ample margin, vertical 4:5 composition, crisp true material texture, high resolution photorealistic boutique catalogue. Keep cotton wicks, unlit. No text, no logo, no typography, no collage. Preserve the yellow lemon and green lime candles and their pebbled rind. Remove box and tissue."
+    },
+    {
+      "id": "18",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied candle product photograph. Create one refined commercial studio photograph of EXACTLY the same candle product(s), maintaining shape, silhouette, proportions, wax colors, surface detail, number of figures and recognizable ornament. Replace background and supporting clutter with a seamless very light warm ivory studio background and matching surface, realistic soft directional daylight and contact shadows. Remove trays, hands, props, packaging, writing and background objects. Do not add new items. Product(s) fully visible with ample margin, vertical 4:5 composition, crisp true material texture, high resolution photorealistic boutique catalogue. Keep cotton wicks, unlit. No text, no logo, no typography, no collage. Preserve all three balloon dog candles, pink, chocolate brown and sage green, their exact balloon anatomy and wicks."
+    },
+    {
+      "id": "10",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: The two tan squirrel-shaped candles in the foreground, with their bushy raised tails, shiny dark eyes and tiny paws. Remove background pinecone candle and vase."
+    },
+    {
+      "id": "11",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: Both small pink blocky robot/minifigure candles with the puzzle-heart chest motifs and cotton wicks. Remove branded ribbon, keep chest motifs."
+    },
+    {
+      "id": "12",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: The main round dark bowl candle with orange wax and decorative miniature skeleton reclining across it. Skeleton is part of the product and MUST stay. Remove all background props, extinguish flames preserve wicks."
+    },
+    {
+      "id": "13",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: The two clear cylinder candles with white wax base, miniature tan teddy bears and lilac daisy decorations INSIDE glasses. Keep figures and daisies, remove lettering and loose flowers outside."
+    },
+    {
+      "id": "14",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: One red-and-white striped popcorn bucket shaped candle with yellow wax popcorn top. Keep exact shape, remove only paper label and all loose surrounding popcorn."
+    },
+    {
+      "id": "15",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: Both pale blue miniature bathtub candles with glossy blue water-like wax, small yellow rubber duck figures and cotton wicks. Preserve bathtub design and duck placements."
+    },
+    {
+      "id": "16",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: The glass candles with ivory wax and black/red playing-card suit decorations. Preserve a front glass with red heart and black spade and one behind with cards, remove outside playing cards and lettering."
+    },
+    {
+      "id": "17",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: The single transparent cylindrical candle with diagonal pink/cream layers and tiny pink heart shapes on top. Remove hand and outside hearts, keep hearts inside candle."
+    },
+    {
+      "id": "19",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: The single blue flame-shaped cute candle character with black round eyes, smiling mouth, pink cheeks, small arms and feet. Keep exact flame tips and body shape."
+    },
+    {
+      "id": "20",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: Both ivory ghost-shaped candles with black eye slots, draped wax folds and top cotton wicks. Extinguish flame, keep two ghosts."
+    },
+    {
+      "id": "23",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: The three small brain-shaped candles, ivory, blush beige and dark chocolate, with exact convoluted cerebral surface and cotton wicks."
+    },
+    {
+      "id": "24",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: The anatomical heart-shaped candle sculptures: two red foreground and two black background. Preserve detailed organic heart anatomy. Remove plates, books and wall print. Clearly sculpted wax, not real organs."
+    },
+    {
+      "id": "25",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: All three ice-cream candle cones with textured beige waffle cups and pink/ivory wax scoops. Preserve cup patterns and wicks, remove tissue and basket."
+    },
+    {
+      "id": "26",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: Three toast-shaped wax candles with white whipped wax, dark blueberry decorations and green leaf accents. Preserve bread-like shape, remove plates. These are candle objects, NOT edible food."
+    },
+    {
+      "id": "27",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: The round tart-shaped wax candles with ivory cream wax and raspberry/blueberry decorations, preserving rounded brown bases and top wicks. Keep one blueberry and one raspberry tart fully visible, remove other background tart candles. NOT food."
+    },
+    {
+      "id": "28",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: One transparent dessert candle glass with chocolate brown and cream layers, ivory marshmallow-like wax pieces and gingerbread figure on top. Preserve all shapes, extinguish flame, retain wick."
+    },
+    {
+      "id": "29",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: The glass candle with pale orange and ivory wax layers topped by realistic peeled-tangerine shaped wax ornament and cotton wick. Keep exact shape, remove background pumpkins, dried flowers, lights."
+    },
+    {
+      "id": "30",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: The small blue round birthday cake candle with white dripping glaze, ivory teddy and pink donut on top. Keep all ornament and wick. Remove the HAPPY lettering to create an unlettered version, do not replace with other text."
+    },
+    {
+      "id": "31",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: The four heart-dice cube candles: pink with ivory hearts, ivory with black hearts, black with ivory hearts, ivory with pink hearts. Keep exact heart spots, remove tulips and tray."
+    },
+    {
+      "id": "32",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: The purple fig-shaped candles with textured skin and visible cotton wicks. Keep three representative whole fig candles in the original purple tones, no cut edible fig or serving tray. Extinguish flame, preserve top candle wells."
+    },
+    {
+      "id": "33",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: The three tree-bark textured cylindrical log candles with ivory wax centers, brown bark relief and cotton wicks; keep two upright and one lying as in original. No flames."
+    },
+    {
+      "id": "34",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: The two golden yellow corn-cob segment candles with detailed kernels and cotton wicks. Preserve kernel anatomy, show both fully; remove straw and crate."
+    },
+    {
+      "id": "35",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: The three brown honeycomb-wax takeaway cup shaped candles with black lids, black smiling sleeves, white eyes and mouth and three small croissant candles. Remove paper tags, preserve honeycomb texture and smile designs."
+    },
+    {
+      "id": "37",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: A small group of pastel egg-shaped wax candles in mauve pink and ivory, faithful to original smooth egg silhouettes. Show four complete eggs with cotton wicks. Remove carton, packaging, loose tiny eggs, ribbon and fabric."
+    },
+    {
+      "id": "40",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: Four blindfolded floral female bust candles in charcoal, ivory, cream and pale blue. Preserve feminine faces, wavy hair and floral eye garlands, shoulders and cotton wicks; do not turn into angels. Remove mirror."
+    },
+    {
+      "id": "01",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: Only the turquoise spherical candle with mottled crystalline surface and wick; remove orchid and vase."
+    },
+    {
+      "id": "02",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: The central grey taper candle in its round grey low dish with decorative silver berry twigs. Keep the dish arrangement, remove loose background holiday ornaments and other candles."
+    },
+    {
+      "id": "03",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: The single transparent cylindrical candle with white wax, lavender botanicals embedded around sides and on top. Preserve glass and all embedded flower pattern."
+    },
+    {
+      "id": "04",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: The two transparent dessert candle glasses with chocolate layers, whipped ivory wax and gingerbread figures. Remove hands, preserve candle designs and proportions."
+    },
+    {
+      "id": "05",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: The raspberry candle glass with white lower wax, translucent red berry upper layer and WOODEN wick. No label or lettering, no loose berries outside."
+    },
+    {
+      "id": "06",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: The round stemless glass strawberry candle, ivory diagonal lower layer and translucent red upper layer with strawberries. Preserve strawberries INSIDE glass, remove surrounding objects."
+    },
+    {
+      "id": "07",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: The coffee-and-milk wax candles in short cylindrical glasses with brown translucent ice-like inserts, white and tan layers and cotton wicks. Preserve the front glass as central product, a second matching glass behind; remove remaining background glasses. Not a drink."
+    },
+    {
+      "id": "08",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: Only the foreground ochre orange pumpkin-shaped candle vessel with speckled glaze and its matching detached pumpkin lid beside it. Preserve lid and wooden wick. Remove other background pumpkins."
+    },
+    {
+      "id": "09",
+      "prompt": "Use case: precise-object-edit. Edit target: supplied product photograph. Create ONE premium catalogue studio photograph derived from this EXACT product, keep its identity, shape, proportions, wax colors, surface ornament and material. Very light warm ivory seamless background and matching surface, soft directional daylight from upper left, subtle realistic contact shadow. Clean and refined, no generic props. Entire products fully visible with generous margins, vertical 4:5 composition, main product fills about 70 percent of frame height. Crisp photorealistic texture, unlit wicks. NO typography, watermark, logo, brand label, collateral or unrelated objects. Do not change candle design. Specific target: The single pink and ivory wax candle in a clear coupe glass on a tall stem with two pink daisy flower decorations on top."
+    }
+  ],
+  "method": "built-in image_gen",
+  "date": "2026-10-22",
+  "revisions": [
+    {
+      "source": "MEDIA-12",
+      "selected": "public/photography/studio/MEDIA-12-studio-v2.png",
+      "prompt": "Use case: precise-object-edit. Edit target: this supplied original candle photograph. Isolate and rephotograph the SAME orange candle in its plain dark brown round shallow metal tin, with the SAME white miniature reclining skeleton placed across the rim. Preserve skeleton pose, white skull, black painted bone lines, arm and leg positions and the orange wax. CRITICAL: tin exterior must remain PLAIN smooth dark brown metal, no embossed patterns, no carving, no triangular motifs, no legs, no added decorative rim. Extinguish flames, retain original multiple wicks. Remove only background props and writing. Fully visible product on very light warm ivory seamless studio surface/background with a soft natural contact shadow, daylight upper left. Photorealistic, clean high detail, vertical 4:5. No unrelated items, typography, logo, watermark.",
+      "reason": "Preserve smooth original tin instead of invented embossing."
+    }
+  ]
+}

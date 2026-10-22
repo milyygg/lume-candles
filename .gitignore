@@ -10,3 +10,6 @@ playwright-report/
 *.tsbuildinfo
 /_backups/
 .taste-skill/
+
+# Local visual QA evidence stays in the workspace.
+docs/client-redesign/**/*.png

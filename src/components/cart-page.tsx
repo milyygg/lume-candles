@@ -116,7 +116,7 @@ export function CartPage() {
           })}
         </div>
         <aside className="order-summary">
-          <h2>Предварительный расчёт</h2>
+          <h2>Ваш выбор</h2>
           <p>Изделий: {cart.count}</p>
           <p className="summary-total">{money(cart.total)}</p>
           <p>
@@ -126,7 +126,7 @@ export function CartPage() {
             Оформить заказ ↗
           </Link>
           <p className="field-note">
-            Сейчас доступна тестовая заявка. Оплата не требуется.
+            Оплата после согласования заказа и доставки.
           </p>
         </aside>
       </div>

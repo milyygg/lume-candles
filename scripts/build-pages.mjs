@@ -13,20 +13,13 @@ await rm(join(stage,'src/server'),{recursive:true,force:true});
 await writeFile(join(stage,'package.json'), JSON.stringify({private:true,type:'module'}));
 await writeFile(join(stage,'next.config.ts'), `export default { output:'export', basePath:'/lume-candles', trailingSlash:true, images:{unoptimized:true}, poweredByHeader:false, turbopack:{root:${JSON.stringify(root)}} };`);
 async function edit(file, transform) { const path=join(stage,file); await writeFile(path,transform(await readFile(path,'utf8'))); }
-await edit('src/components/photograph.tsx',s=>s.replace('src={photo.src}','src={"/lume-candles" + photo.src}'));
-await edit('src/app/media-library/page.tsx',s=>s.replace('src={m.preview}','src={"/lume-candles" + m.preview}'));
 await edit('src/app/fonts.css',s=>s.replaceAll('url(/fonts/','url(/lume-candles/fonts/'));
-await edit('src/app/layout.tsx',s=>s.replace('url: "/media/','url: "/lume-candles/media/').replace('icon: "/icon.svg"','icon: "/lume-candles/icon.svg"'));
+await edit('src/app/layout.tsx',s=>s.replace('url: "/media/','url: "/lume-candles/media/').replace('url: \"/photography/','url: \"/lume-candles/photography/').replace('icon: "/icon.svg"','icon: "/lume-candles/icon.svg"'));
 for(const file of ['src/app/robots.ts','src/app/sitemap.ts']) await edit(file,s=>'export const dynamic = "force-static";\n'+s);
-await writeFile(join(stage,'src/components/checkout.tsx'), `"use client";
-import Link from 'next/link';
-import {useCart} from './store';
-import {money} from '@/lib/config';
-export function Checkout(){const cart=useCart(); return <section className="confirmation"><h1>Ваш выбор</h1><p>Демонстрационная версия магазина. Здесь можно выбрать свечи и собрать корзину. Приём и отправка заказов пока не подключены.</p><p>Предварительная стоимость: {money(cart.total)}, без доставки.</p><Link className="button" href="/cart">Вернуться в корзину</Link><p><Link className="text-link" href="/catalog">Продолжить выбор</Link></p></section>}
-`);
-await edit('src/app/catalog/page.tsx',s=>s.replace(/export default async function CatalogPage[\s\S]*?  return \(/, 'export default function CatalogPage() { return (').replace('<Catalog initialCategory={initialCategory} />','<Suspense fallback={<p>Загружаем коллекцию...</p>}><Catalog /></Suspense>').replace('import type { Metadata }', 'import { Suspense } from "react";\nimport type { Metadata }'));
+await writeFile(join(stage,'src/components/server-checkout.tsx'), 'export function ServerCheckout(){return null;}');
+await edit('src/app/catalog/page.tsx',s=>s.replace(/export default async function CatalogPage[\s\S]*?  return \(/, 'export default function CatalogPage() { return (').replace('<Catalog key={initialCategory} initialCategory={initialCategory} />','<Suspense fallback={<p>Загружаем коллекцию...</p>}><Catalog /></Suspense>').replace('import type { Metadata }', 'import { Suspense } from "react";\nimport type { Metadata }'));
 await edit('src/components/catalog.tsx',s=>s.replace('import { useMemo, useState }', 'import { useSearchParams } from "next/navigation";\nimport { useMemo, useState }').replace('  const [search, setSearch]', '  const query = useSearchParams();\n  initialCategory = query.get("category") || initialCategory;\n  const [search, setSearch]'));
-const build = spawnSync(process.execPath,[join(root,'node_modules/next/dist/bin/next'),'build',stage],{stdio:'inherit',env:{...process.env,NEXT_PUBLIC_SITE_URL:'https://milyygg.github.io/lume-candles',ORDER_MODE:'test'}});
+const build = spawnSync(process.execPath,[join(root,'node_modules/next/dist/bin/next'),'build',stage],{stdio:'inherit',env:{...process.env,NEXT_PUBLIC_SITE_URL:'https://milyygg.github.io/lume-candles',ORDER_MODE:'test',NEXT_PUBLIC_BASE_PATH:'/lume-candles',NEXT_PUBLIC_CHECKOUT_MODE:'telegram'}});
 if(build.status!==0) process.exit(build.status||1);
 await writeFile(join(stage,'out/.nojekyll'),'');
 console.log('GitHub Pages files: '+join(stage,'out'));

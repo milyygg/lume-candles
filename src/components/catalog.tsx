@@ -1,8 +1,9 @@
 "use client";
 import { useMemo, useState } from "react";
+import { aromas } from "@/data/aromas";
 import { visibleProducts } from "@/data/products";
 import { ProductCard } from "./product-card";
-import { SearchIcon, FilterIcon } from "./catalog-icons";
+import { SearchIcon } from "./catalog-icons";
 export function Catalog({
   initialCategory = "Все формы",
 }: {
@@ -11,9 +12,7 @@ export function Catalog({
   const [search, setSearch] = useState(""),
     [category, setCategory] = useState(initialCategory),
     [sort, setSort] = useState("featured"),
-    [type, setType] = useState(""),
-    [technology, setTechnology] = useState(""),
-    [decor, setDecor] = useState("");
+    [scent, setScent] = useState("");
   const filtered = useMemo(() => {
     const list = visibleProducts.filter(
       (p) =>
@@ -21,9 +20,7 @@ export function Catalog({
         p.name
           .toLocaleLowerCase("ru")
           .includes(search.toLocaleLowerCase("ru")) &&
-        (!type || p.candleTypes.includes(type as never)) &&
-        (!technology || p.technology === technology) &&
-        (!decor || p.decorKinds.includes(decor as never)),
+        (!scent || p.aromas.some(a=>a.id===scent)),
     );
     return [...list].sort((a, b) =>
       sort === "name"
@@ -34,14 +31,12 @@ export function Catalog({
             ? b.basePrice - a.basePrice
             : 0,
     );
-  }, [search, category, sort, type, technology, decor]);
+  }, [search, category, sort, scent]);
   const reset = () => {
     setSearch("");
     setCategory("Все формы");
     setSort("featured");
-    setType("");
-    setTechnology("");
-    setDecor("");
+    setScent("");
   };
   return (
     <>
@@ -90,48 +85,7 @@ export function Catalog({
           </button>
         ))}
       </div>
-      <details className="filters" data-ui>
-        <summary>
-          <FilterIcon /> Дополнительные фильтры
-        </summary>
-        <div className="filter-fields">
-          <label className="field">
-            Вид свечи
-            <select value={type} onChange={(e) => setType(e.target.value)}>
-              <option value="">Все виды</option>
-              <option value="aromatic">Ароматические</option>
-              <option value="massage">Массажные</option>
-              <option value="wood-wick">С деревянным фитилём</option>
-            </select>
-          </label>
-          <label className="field">
-            Технология
-            <select
-              value={technology}
-              onChange={(e) => setTechnology(e.target.value)}
-            >
-              <option value="">Все технологии</option>
-              <option value="molded">Формовые</option>
-              <option value="gel">Гелевые</option>
-            </select>
-          </label>
-          <label className="field">
-            Декор
-            <select value={decor} onChange={(e) => setDecor(e.target.value)}>
-              <option value="">Любой декор</option>
-              <option value="botanical">Ботанический</option>
-              <option value="relief">Рельефный</option>
-              <option value="texture">Текстурный</option>
-              <option value="filled">С наполнениями</option>
-              <option value="painted">Расписные</option>
-            </select>
-          </label>
-        </div>
-        <p className="field-note">
-          Эти свойства пока не подтверждены для референсов. Фильтр покажет
-          изделия после наполнения данных.
-        </p>
-      </details>
+      <label className="field scent-filter">Аромат<select value={scent} onChange={e=>setScent(e.target.value)}><option value="">Все ароматы</option>{aromas.map(a=><option value={a.id} key={a.id}>{a.label}</option>)}</select></label>
       <div className="results">
         <p aria-live="polite">Найдено форм: {filtered.length}</p>
         <button className="text-link" onClick={reset}>
@@ -139,7 +93,7 @@ export function Catalog({
         </button>
       </div>
       {filtered.length ? (
-        <div className="product-grid">
+        <div className="product-grid catalog-grid" key={`${category}:${search}:${scent}:${sort}`}>
           {filtered.map((product, index) => (
             <ProductCard key={product.id} product={product} index={index} />
           ))}

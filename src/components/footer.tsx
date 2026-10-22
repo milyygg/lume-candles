@@ -1,3 +1,4 @@
+import { telegramContact } from "@/lib/contact";
 import Link from "next/link";
 import { brand } from "@/lib/config";
 import { Arrow } from "./arrow";
@@ -26,12 +27,8 @@ export function Footer() {
         <nav aria-label="Документы">
           <Link href="/privacy">Обработка данных</Link>
           <Link href="/terms">Условия заказа</Link>
-          <Link href="/media-library">Исходные фотографии</Link>
-          <p>
-            Демонстрационный каталог.
-            <br />
-            Параметры уточняются лично.
-          </p>
+
+          <a href={telegramContact} target="_blank" rel="noopener noreferrer">Telegram ↗</a><p>Создано вручную.<br/>Выбрано с любовью.</p>
         </nav>
       </div>
       <div className="footer-word" aria-hidden="true">

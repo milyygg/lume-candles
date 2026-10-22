@@ -9,8 +9,8 @@ export const pricing = {
   base: 1500,
   sizes: {
     small: { label: "6-9 см", extra: 0 },
-    medium: { label: "Более 9 до 20 см", extra: 500 },
-    large: { label: "Более 20 до 34 см", extra: 1000 },
+    medium: { label: "9-20 см", extra: 500 },
+    large: { label: "20-34 см", extra: 1000 },
   },
   materials: {
     palm: { label: "Пальмовый воск", extra: 0 },
@@ -21,7 +21,7 @@ export const pricing = {
   decorExtra: 300,
   maxQuantity: 20,
   maxLines: 20,
-  materialsProvisional: true,
+  materialsProvisional: false,
 } as const;
 export const money = (amount: number) =>
   new Intl.NumberFormat("ru-RU", {

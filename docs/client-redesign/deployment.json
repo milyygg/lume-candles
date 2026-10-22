@@ -1,0 +1,17 @@
+{
+  "url": "https://milyygg.github.io/lume-candles/",
+  "status": "built-and-verified",
+  "commit": "3bfb483f99e943de53a7bf18c73ffbc977f71ba0",
+  "parent": "77844c22a407f609f0c36124f4af26db84078ecf",
+  "originalShortcutUnchanged": true,
+  "verifiedViewports": [
+    "desktop",
+    "tablet",
+    "mobile"
+  ],
+  "onlineChecks": "docs/client-redesign/online-checks.json",
+  "shortcutLaunchedWithWindowsDefaultHandler": true,
+  "selectedStudioImages": 40,
+  "originalPhotos": 40,
+  "sourceBranch": "redesign/client-catalog-20261022"
+}

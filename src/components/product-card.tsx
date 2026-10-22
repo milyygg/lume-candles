@@ -14,7 +14,7 @@ export function ProductCard({
     <article
       className="product-card"
       data-reveal
-      style={{ "--delay": `${(index % 3) * 60}ms` } as React.CSSProperties}
+      style={{ "--delay": `${(index % 4) * 75}ms` } as React.CSSProperties}
     >
       <Link
         className="product-photo"
@@ -23,7 +23,7 @@ export function ProductCard({
       >
         <Photograph
           source={product.image}
-          alt={product.name + " - исходный референс"}
+          alt={product.name}
         />
       </Link>
       <div className="product-meta">
@@ -37,7 +37,7 @@ export function ProductCard({
             className="product-open"
             aria-label={`Настроить: ${product.name}`}
           >
-            <span>Собрать</span>
+            <span>Подробнее</span>
             <Arrow />
           </Link>
         </div>

@@ -21,10 +21,10 @@ export const metadata: Metadata = {
     description: brand.description,
     images: [
       {
-        url: "/media/MEDIA-21.webp",
-        width: 800,
-        height: 1200,
-        alt: "Свеча в форме объятия, референс",
+        url: `${siteUrl.replace(/\/$/, "")}/photography/studio/MEDIA-21-studio.png`,
+        width: 1122,
+        height: 1402,
+        alt: "Декоративная свеча Объятие",
       },
     ],
   },

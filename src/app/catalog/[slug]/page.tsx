@@ -1,4 +1,5 @@
-import { Photograph } from "@/components/photograph";
+import { ProductGallery } from "@/components/product-gallery";
+import { ProductCard } from "@/components/product-card";
 import { Arrow } from "@/components/arrow";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -28,28 +29,16 @@ export default async function ProductPage({
   return (
     <div className="wrap page-content">
       <Link className="product-breadcrumb" href="/catalog">
-        <Arrow direction="left" /> Коллекция форм
+        <Arrow direction="left" /> Вся коллекция
       </Link>
       <div className="product-detail">
-        <figure className="detail-image">
-          <div className="detail-image-frame">
-            <Photograph
-              source={product.image}
-              alt={product.name + ", референс из исходных материалов"}
-              priority
-            />
-          </div>
-          <figcaption>
-            Исходная фотография. Цвет, размеры и состав уточняются. Изображение
-            показано целиком.
-          </figcaption>
-        </figure>
+        <ProductGallery product={product} />
         <div className="detail-copy">
           <p className="detail-category">{product.category}</p>
           <h1>{product.name}</h1>
           <p className="detail-description">{product.short}</p>
           <h2 id="constructor" className="constructor-heading">
-            Соберите свою версию
+            Детали вашей свечи
           </h2>
           <Configurator product={product} />
           <details>
@@ -66,6 +55,7 @@ export default async function ProductPage({
           </details>
         </div>
       </div>
+      <section className="section related-products"><div className="section-heading"><h2>Рядом по настроению</h2><Link className="text-link" href="/catalog">Вся коллекция</Link></div><div className="product-grid">{visibleProducts.filter(p=>p.category===product.category && p.id!==product.id).slice(0,3).map((p,i)=><ProductCard product={p} index={i} key={p.id}/>)}</div></section>
     </div>
   );
 }

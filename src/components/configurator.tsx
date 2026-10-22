@@ -51,10 +51,6 @@ export function Configurator({
         }
       }}
     >
-      <p className="notice">
-        Демонстрация конфигурации. Возможности этой формы и окончательную
-        стоимость согласуем лично.
-      </p>
       <fieldset>
         <legend>Размер</legend>
         <div className="choices">
@@ -65,6 +61,7 @@ export function Configurator({
             >
               <input
                 type="radio"
+                disabled={!cart.ready}
                 name={`size-${product.id}`}
                 value={size}
                 checked={selection.size === size}
@@ -103,6 +100,7 @@ export function Configurator({
               >
                 <input
                   type="radio"
+                disabled={!cart.ready}
                   name={`material-${product.id}`}
                   checked={selection.material === material}
                   onChange={() => set({ material: material as Material })}
@@ -126,18 +124,18 @@ export function Configurator({
               </label>
             ))}
           </div>
-          <p className="field-note">
-            Предварительные доплаты за материалы требуют согласования.
-          </p>
+
         </fieldset>
       )}
       <label className="field">
         Аромат
         <select
+          aria-label="Аромат"
+          disabled={!cart.ready}
           value={selection.aroma}
           onChange={(e) => set({ aroma: e.target.value })}
         >
-          <option value="none">Без аромата · +0 ₽</option>
+          <option value="none">Без аромата · 0 ₽</option>
           {product.aromas.map((a) => (
             <option key={a.id} value={a.id}>
               {a.label} · +{money(pricing.aromaExtra)}
@@ -145,12 +143,13 @@ export function Configurator({
           ))}
         </select>
       </label>
-      <p className="field-note">Список ароматов пока не подтверждён.</p>
+
       {product.allowDecor && (
         <div className="decor-option">
           <label className="check">
             <input
               type="checkbox"
+              disabled={!cart.ready}
               checked={selection.decor}
               onChange={(e) => set({ decor: e.target.checked })}
             />
@@ -159,7 +158,7 @@ export function Configurator({
             </span>
           </label>
           <p className="field-note">
-            Детали декора согласовываются индивидуально.
+            {selection.decor ? "Детали оформления согласуем лично." : "Без дополнительного декора · 0 ₽"}
           </p>
         </div>
       )}
@@ -170,7 +169,7 @@ export function Configurator({
             <button
               type="button"
               aria-label="Уменьшить количество"
-              disabled={selection.quantity <= 1}
+              disabled={!cart.ready || selection.quantity <= 1}
               onClick={() =>
                 set({ quantity: Math.max(1, selection.quantity - 1) })
               }
@@ -181,6 +180,7 @@ export function Configurator({
               id={`quantity-${product.id}`}
               aria-label="Количество"
               type="number"
+              disabled={!cart.ready}
               min="1"
               max={pricing.maxQuantity}
               value={selection.quantity}
@@ -196,7 +196,7 @@ export function Configurator({
             <button
               type="button"
               aria-label="Увеличить количество"
-              disabled={selection.quantity >= pricing.maxQuantity}
+              disabled={!cart.ready || selection.quantity >= pricing.maxQuantity}
               onClick={() =>
                 set({
                   quantity: Math.min(
@@ -210,12 +210,12 @@ export function Configurator({
             </button>
           </div>
         </div>
-        <div className="price" aria-live="polite">
-          {money(unitPrice(selection) * selection.quantity)}
+        <div className="price" aria-live="polite"><span className="price-value" key={unitPrice(selection) * selection.quantity}>
+          {money(unitPrice(selection) * selection.quantity)}</span>
           <small>{money(unitPrice(selection))} / шт.</small>
         </div>
       </div>
-      <button className="button wide" type="submit">
+      <button className={added ? "button wide added" : "button wide"} disabled={!cart.ready} type="submit">
         {onSave
           ? "Сохранить параметры"
           : added

@@ -1,0 +1,20 @@
+[
+  {
+    "viewport": "desktop",
+    "passed": true,
+    "products": 40,
+    "configurationTotal": 6400
+  },
+  {
+    "viewport": "tablet",
+    "passed": true,
+    "products": 40,
+    "configurationTotal": 6400
+  },
+  {
+    "viewport": "mobile",
+    "passed": true,
+    "products": 40,
+    "configurationTotal": 6400
+  }
+]

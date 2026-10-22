@@ -3,7 +3,7 @@ import { Catalog } from "@/components/catalog";
 export const metadata: Metadata = {
   title: "Коллекция",
   description:
-    "Выберите форму декоративной свечи и настройте предварительную конфигурацию.",
+    "Выберите форму декоративной свечи и выберите размер, материал и аромат.",
 };
 export default async function CatalogPage({
   searchParams,
@@ -29,11 +29,8 @@ export default async function CatalogPage({
           Выберите то, что откликается именно вам.
         </p>
       </div>
-      <Catalog initialCategory={initialCategory} />
-      <p className="catalog-status">
-        12 форм из исходной подборки. Фотографии служат референсами: наличие,
-        характеристики и права на изображения требуют подтверждения.
-      </p>
+      <Catalog key={initialCategory} initialCategory={initialCategory} />
+
     </div>
   );
 }

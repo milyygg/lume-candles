@@ -5,13 +5,15 @@ export function Photograph({
   alt,
   priority = false,
   className,
+  original = false,
 }: {
   source: string;
   alt: string;
   priority?: boolean;
   className?: string;
+  original?: boolean;
 }) {
-  const photo = photograph(source);
+  const photo = photograph(source, original);
   return (
     <Image
       src={photo.src}

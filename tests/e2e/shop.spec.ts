@@ -1,17 +1,17 @@
 import { test, expect } from "@playwright/test";
-test("catalog, constructor, persistent cart and test checkout", async ({
+test("catalog, constructor, persistent cart and Telegram handoff", async ({
   page,
 }) => {
   await page.goto("/catalog");
   await page.getByPlaceholder("Например, медведь").fill("несуществующая");
   await expect(page.getByText("Пока нет совпадений")).toBeVisible();
   await page.getByRole("button", { name: "Показать все формы" }).click();
-  await expect(page.getByText("Найдено форм: 12")).toBeVisible();
+  await expect(page.getByText("Найдено форм: 40")).toBeVisible();
   await page.getByRole("button", { name: "Ботанические", exact: true }).click();
-  await expect(page.getByText("Найдено форм: 3")).toBeVisible();
+  await expect(page.getByText("Найдено форм: 6")).toBeVisible();
   await page.getByRole("button", { name: "Сбросить фильтры" }).click();
   await page.goto("/catalog/embrace");
-  await page.getByLabel("Более 20 до 34 см").check();
+  await page.getByLabel("20-34 см").check();
   await page.getByLabel("Кокосовый воск").check();
   await page.getByLabel("Дополнительный декор").check();
   await page.getByLabel("Количество", { exact: true }).fill("2");
@@ -37,16 +37,10 @@ test("catalog, constructor, persistent cart and test checkout", async ({
     .click();
   await expect(page.locator(".cart-item")).toHaveCount(1);
   await page.getByRole("link", { name: "Оформить заказ" }).click();
-  await page.getByLabel("Как к вам обращаться").fill("Тестовый покупатель");
-  await page.getByLabel("Username в Telegram").fill("@test_user");
-  await page.getByRole("checkbox").check();
-  await page.getByRole("button", { name: "Сохранить тестовую заявку" }).click();
-  await expect(
-    page.getByRole("heading", { name: "Тестовая заявка сохранена" }),
-  ).toBeVisible();
-  await expect(
-    page.getByText("Уведомление в Telegram не отправлялось.", { exact: false }),
-  ).toBeVisible();
+  await expect(page.getByLabel("Состав заказа для отправки")).toHaveValue(/4\s000/);
+  await expect(page.getByRole("link", {name:"Открыть Telegram"})).toHaveAttribute("href", /https:\/\/t\.me\//);
+  await expect(page.locator(".cart-link")).toContainText("2");
+
 });
 test("responsive pages do not overflow; menu and navigation work", async ({
   page,
@@ -65,7 +59,7 @@ test("responsive pages do not overflow; menu and navigation work", async ({
     await expect(page.locator("h1")).toBeVisible();
     expect(
       await page.evaluate(
-        () => document.documentElement.scrollWidth <= window.innerWidth,
+        () => document.documentElement.scrollWidth <= document.documentElement.clientWidth,
       ),
     ).toBe(true);
   }

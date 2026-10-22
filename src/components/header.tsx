@@ -26,6 +26,7 @@ export function Header() {
           id="mobile-menu"
           className={open ? "nav open" : "nav"}
           aria-label="Основная навигация"
+          onKeyDown={(e)=>{if(e.key==="Escape"){setOpen(false);document.querySelector<HTMLButtonElement>(".menu-button")?.focus();}}}
         >
           {[
             ["/catalog", "Коллекция"],
@@ -67,7 +68,7 @@ export function Header() {
                 strokeWidth="1.4"
               />
             </svg>
-            <span>{cart.count}</span>
+            <span className="cart-count" key={cart.count}>{cart.count}</span>
           </Link>
           <button
             className="menu-button"
