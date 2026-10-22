@@ -1,4 +1,4 @@
-:HL["/lume-candles/_next/static/chunks/2i9tlr9re2xds.css","style"]
+:HL["/lume-candles/_next/static/chunks/1x-05067_j6ji.css","style"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":{"n":"page","t":"d","k":"contacts","s":["cart","catalog","checkout","media-library"]},"h":96,"c":"$Q2"}]]
-0:{"b":"6bHAasf3bmcM2kLWuogxx","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"Y30SO7fbGJhjrefDqw8DY","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
