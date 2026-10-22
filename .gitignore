@@ -1,5 +1,6 @@
 node_modules/
 .next/
+.pages-build/
 .env*
 !.env.example
 /data/
@@ -8,11 +9,4 @@ test-results/
 playwright-report/
 *.tsbuildinfo
 /_backups/
-.taste-skill/inspect/
-
-.pages-build/
 .taste-skill/
-docs/design-inspection/
-docs/screenshots/
-docs/redesign/
-фото/

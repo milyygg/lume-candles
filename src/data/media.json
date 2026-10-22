@@ -1,7 +1,7 @@
 [
   {
     "id": "MEDIA-01",
-    "source": "фото/photo_1_2026-10-21_22-57-32.jpg",
+    "source": "public/photography/MEDIA-01.jpg",
     "image": "/media/MEDIA-01.webp",
     "preview": "/media/MEDIA-01-thumb.webp",
     "width": 2000,
@@ -12,7 +12,7 @@
   },
   {
     "id": "MEDIA-02",
-    "source": "фото/photo_2_2026-10-21_22-57-32.jpg",
+    "source": "public/photography/MEDIA-02.jpg",
     "image": "/media/MEDIA-02.webp",
     "preview": "/media/MEDIA-02-thumb.webp",
     "width": 2000,
@@ -23,7 +23,7 @@
   },
   {
     "id": "MEDIA-03",
-    "source": "фото/photo_3_2026-10-21_22-57-32.jpg",
+    "source": "public/photography/MEDIA-03.jpg",
     "image": "/media/MEDIA-03.webp",
     "preview": "/media/MEDIA-03-thumb.webp",
     "width": 736,
@@ -34,7 +34,7 @@
   },
   {
     "id": "MEDIA-04",
-    "source": "фото/photo_4_2026-10-21_22-57-32.jpg",
+    "source": "public/photography/MEDIA-04.jpg",
     "image": "/media/MEDIA-04.webp",
     "preview": "/media/MEDIA-04-thumb.webp",
     "width": 1200,
@@ -45,7 +45,7 @@
   },
   {
     "id": "MEDIA-05",
-    "source": "фото/photo_5_2026-10-21_22-57-32.jpg",
+    "source": "public/photography/MEDIA-05.jpg",
     "image": "/media/MEDIA-05.webp",
     "preview": "/media/MEDIA-05-thumb.webp",
     "width": 736,
@@ -56,7 +56,7 @@
   },
   {
     "id": "MEDIA-06",
-    "source": "фото/photo_6_2026-10-21_22-57-32.jpg",
+    "source": "public/photography/MEDIA-06.jpg",
     "image": "/media/MEDIA-06.webp",
     "preview": "/media/MEDIA-06-thumb.webp",
     "width": 1170,
@@ -67,7 +67,7 @@
   },
   {
     "id": "MEDIA-07",
-    "source": "фото/photo_7_2026-10-21_22-57-32.jpg",
+    "source": "public/photography/MEDIA-07.jpg",
     "image": "/media/MEDIA-07.webp",
     "preview": "/media/MEDIA-07-thumb.webp",
     "width": 736,
@@ -78,7 +78,7 @@
   },
   {
     "id": "MEDIA-08",
-    "source": "фото/photo_8_2026-10-21_22-57-32.jpg",
+    "source": "public/photography/MEDIA-08.jpg",
     "image": "/media/MEDIA-08.webp",
     "preview": "/media/MEDIA-08-thumb.webp",
     "width": 736,
@@ -89,7 +89,7 @@
   },
   {
     "id": "MEDIA-09",
-    "source": "фото/photo_9_2026-10-21_22-57-32.jpg",
+    "source": "public/photography/MEDIA-09.jpg",
     "image": "/media/MEDIA-09.webp",
     "preview": "/media/MEDIA-09-thumb.webp",
     "width": 1200,
@@ -100,7 +100,7 @@
   },
   {
     "id": "MEDIA-10",
-    "source": "фото/photo_10_2026-10-21_22-57-32.jpg",
+    "source": "public/photography/MEDIA-10.jpg",
     "image": "/media/MEDIA-10.webp",
     "preview": "/media/MEDIA-10-thumb.webp",
     "width": 1000,
@@ -111,7 +111,7 @@
   },
   {
     "id": "MEDIA-11",
-    "source": "фото/photo_11_2026-10-21_22-57-32.jpg",
+    "source": "public/photography/MEDIA-11.jpg",
     "image": "/media/MEDIA-11.webp",
     "preview": "/media/MEDIA-11-thumb.webp",
     "width": 736,
@@ -122,7 +122,7 @@
   },
   {
     "id": "MEDIA-12",
-    "source": "фото/photo_12_2026-10-21_22-57-32.jpg",
+    "source": "public/photography/MEDIA-12.jpg",
     "image": "/media/MEDIA-12.webp",
     "preview": "/media/MEDIA-12-thumb.webp",
     "width": 1000,
@@ -133,7 +133,7 @@
   },
   {
     "id": "MEDIA-13",
-    "source": "фото/photo_13_2026-10-21_22-57-32.jpg",
+    "source": "public/photography/MEDIA-13.jpg",
     "image": "/media/MEDIA-13.webp",
     "preview": "/media/MEDIA-13-thumb.webp",
     "width": 1024,
@@ -144,7 +144,7 @@
   },
   {
     "id": "MEDIA-14",
-    "source": "фото/photo_14_2026-10-21_22-57-32.jpg",
+    "source": "public/photography/MEDIA-14.jpg",
     "image": "/media/MEDIA-14.webp",
     "preview": "/media/MEDIA-14-thumb.webp",
     "width": 736,
@@ -155,7 +155,7 @@
   },
   {
     "id": "MEDIA-15",
-    "source": "фото/photo_15_2026-10-21_22-57-32.jpg",
+    "source": "public/photography/MEDIA-15.jpg",
     "image": "/media/MEDIA-15.webp",
     "preview": "/media/MEDIA-15-thumb.webp",
     "width": 736,
@@ -166,7 +166,7 @@
   },
   {
     "id": "MEDIA-16",
-    "source": "фото/photo_16_2026-10-21_22-57-32.jpg",
+    "source": "public/photography/MEDIA-16.jpg",
     "image": "/media/MEDIA-16.webp",
     "preview": "/media/MEDIA-16-thumb.webp",
     "width": 736,
@@ -177,7 +177,7 @@
   },
   {
     "id": "MEDIA-17",
-    "source": "фото/photo_17_2026-10-21_22-57-32.jpg",
+    "source": "public/photography/MEDIA-17.jpg",
     "image": "/media/MEDIA-17.webp",
     "preview": "/media/MEDIA-17-thumb.webp",
     "width": 736,
@@ -188,7 +188,7 @@
   },
   {
     "id": "MEDIA-18",
-    "source": "фото/photo_18_2026-10-21_22-57-32.jpg",
+    "source": "public/photography/MEDIA-18.jpg",
     "image": "/media/MEDIA-18.webp",
     "preview": "/media/MEDIA-18-thumb.webp",
     "width": 736,
@@ -199,7 +199,7 @@
   },
   {
     "id": "MEDIA-19",
-    "source": "фото/photo_19_2026-10-21_22-57-32.jpg",
+    "source": "public/photography/MEDIA-19.jpg",
     "image": "/media/MEDIA-19.webp",
     "preview": "/media/MEDIA-19-thumb.webp",
     "width": 736,
@@ -210,7 +210,7 @@
   },
   {
     "id": "MEDIA-20",
-    "source": "фото/photo_20_2026-10-21_22-57-32.jpg",
+    "source": "public/photography/MEDIA-20.jpg",
     "image": "/media/MEDIA-20.webp",
     "preview": "/media/MEDIA-20-thumb.webp",
     "width": 722,
@@ -221,7 +221,7 @@
   },
   {
     "id": "MEDIA-21",
-    "source": "фото/photo_21_2026-10-21_22-57-32.jpg",
+    "source": "public/photography/MEDIA-21.jpg",
     "image": "/media/MEDIA-21.webp",
     "preview": "/media/MEDIA-21-thumb.webp",
     "width": 720,
@@ -232,7 +232,7 @@
   },
   {
     "id": "MEDIA-22",
-    "source": "фото/photo_22_2026-10-21_22-57-32.jpg",
+    "source": "public/photography/MEDIA-22.jpg",
     "image": "/media/MEDIA-22.webp",
     "preview": "/media/MEDIA-22-thumb.webp",
     "width": 736,
@@ -243,7 +243,7 @@
   },
   {
     "id": "MEDIA-23",
-    "source": "фото/photo_23_2026-10-21_22-57-32.jpg",
+    "source": "public/photography/MEDIA-23.jpg",
     "image": "/media/MEDIA-23.webp",
     "preview": "/media/MEDIA-23-thumb.webp",
     "width": 736,
@@ -254,7 +254,7 @@
   },
   {
     "id": "MEDIA-24",
-    "source": "фото/photo_24_2026-10-21_22-57-32.jpg",
+    "source": "public/photography/MEDIA-24.jpg",
     "image": "/media/MEDIA-24.webp",
     "preview": "/media/MEDIA-24-thumb.webp",
     "width": 236,
@@ -265,7 +265,7 @@
   },
   {
     "id": "MEDIA-25",
-    "source": "фото/photo_25_2026-10-21_22-57-33.jpg",
+    "source": "public/photography/MEDIA-25.jpg",
     "image": "/media/MEDIA-25.webp",
     "preview": "/media/MEDIA-25-thumb.webp",
     "width": 736,
@@ -276,7 +276,7 @@
   },
   {
     "id": "MEDIA-26",
-    "source": "фото/photo_26_2026-10-21_22-57-33.jpg",
+    "source": "public/photography/MEDIA-26.jpg",
     "image": "/media/MEDIA-26.webp",
     "preview": "/media/MEDIA-26-thumb.webp",
     "width": 1199,
@@ -287,7 +287,7 @@
   },
   {
     "id": "MEDIA-27",
-    "source": "фото/photo_27_2026-10-21_22-57-33.jpg",
+    "source": "public/photography/MEDIA-27.jpg",
     "image": "/media/MEDIA-27.webp",
     "preview": "/media/MEDIA-27-thumb.webp",
     "width": 736,
@@ -298,7 +298,7 @@
   },
   {
     "id": "MEDIA-28",
-    "source": "фото/photo_28_2026-10-21_22-57-33.jpg",
+    "source": "public/photography/MEDIA-28.jpg",
     "image": "/media/MEDIA-28.webp",
     "preview": "/media/MEDIA-28-thumb.webp",
     "width": 736,
@@ -309,7 +309,7 @@
   },
   {
     "id": "MEDIA-29",
-    "source": "фото/photo_29_2026-10-21_22-57-33.jpg",
+    "source": "public/photography/MEDIA-29.jpg",
     "image": "/media/MEDIA-29.webp",
     "preview": "/media/MEDIA-29-thumb.webp",
     "width": 736,
@@ -320,7 +320,7 @@
   },
   {
     "id": "MEDIA-30",
-    "source": "фото/photo_30_2026-10-21_22-57-33.jpg",
+    "source": "public/photography/MEDIA-30.jpg",
     "image": "/media/MEDIA-30.webp",
     "preview": "/media/MEDIA-30-thumb.webp",
     "width": 735,
@@ -331,7 +331,7 @@
   },
   {
     "id": "MEDIA-31",
-    "source": "фото/photo_31_2026-10-21_22-57-33.jpg",
+    "source": "public/photography/MEDIA-31.jpg",
     "image": "/media/MEDIA-31.webp",
     "preview": "/media/MEDIA-31-thumb.webp",
     "width": 736,
@@ -342,7 +342,7 @@
   },
   {
     "id": "MEDIA-32",
-    "source": "фото/photo_32_2026-10-21_22-57-33.jpg",
+    "source": "public/photography/MEDIA-32.jpg",
     "image": "/media/MEDIA-32.webp",
     "preview": "/media/MEDIA-32-thumb.webp",
     "width": 1080,
@@ -353,7 +353,7 @@
   },
   {
     "id": "MEDIA-33",
-    "source": "фото/photo_33_2026-10-21_22-57-33.jpg",
+    "source": "public/photography/MEDIA-33.jpg",
     "image": "/media/MEDIA-33.webp",
     "preview": "/media/MEDIA-33-thumb.webp",
     "width": 736,
@@ -364,7 +364,7 @@
   },
   {
     "id": "MEDIA-34",
-    "source": "фото/photo_34_2026-10-21_22-57-33.jpg",
+    "source": "public/photography/MEDIA-34.jpg",
     "image": "/media/MEDIA-34.webp",
     "preview": "/media/MEDIA-34-thumb.webp",
     "width": 736,
@@ -375,7 +375,7 @@
   },
   {
     "id": "MEDIA-35",
-    "source": "фото/photo_35_2026-10-21_22-57-33.jpg",
+    "source": "public/photography/MEDIA-35.jpg",
     "image": "/media/MEDIA-35.webp",
     "preview": "/media/MEDIA-35-thumb.webp",
     "width": 1200,
@@ -386,7 +386,7 @@
   },
   {
     "id": "MEDIA-36",
-    "source": "фото/photo_36_2026-10-21_22-57-33.jpg",
+    "source": "public/photography/MEDIA-36.jpg",
     "image": "/media/MEDIA-36.webp",
     "preview": "/media/MEDIA-36-thumb.webp",
     "width": 736,
@@ -397,7 +397,7 @@
   },
   {
     "id": "MEDIA-37",
-    "source": "фото/photo_37_2026-10-21_22-57-33.jpg",
+    "source": "public/photography/MEDIA-37.jpg",
     "image": "/media/MEDIA-37.webp",
     "preview": "/media/MEDIA-37-thumb.webp",
     "width": 736,
@@ -408,7 +408,7 @@
   },
   {
     "id": "MEDIA-38",
-    "source": "фото/photo_38_2026-10-21_22-57-33.jpg",
+    "source": "public/photography/MEDIA-38.jpg",
     "image": "/media/MEDIA-38.webp",
     "preview": "/media/MEDIA-38-thumb.webp",
     "width": 736,
@@ -419,7 +419,7 @@
   },
   {
     "id": "MEDIA-39",
-    "source": "фото/photo_39_2026-10-21_22-57-33.jpg",
+    "source": "public/photography/MEDIA-39.jpg",
     "image": "/media/MEDIA-39.webp",
     "preview": "/media/MEDIA-39-thumb.webp",
     "width": 686,
@@ -430,7 +430,7 @@
   },
   {
     "id": "MEDIA-40",
-    "source": "фото/photo_40_2026-10-21_22-57-33.jpg",
+    "source": "public/photography/MEDIA-40.jpg",
     "image": "/media/MEDIA-40.webp",
     "preview": "/media/MEDIA-40-thumb.webp",
     "width": 900,

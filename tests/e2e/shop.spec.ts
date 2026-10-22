@@ -79,7 +79,7 @@ test("responsive pages do not overflow; menu and navigation work", async ({
   }
   await page.goto("/");
   await page.screenshot({
-    path: `docs/screenshots/${testInfo.project.name}-home.png`,
+    path: `test-results/screenshots/${testInfo.project.name}-home.png`,
     fullPage: true,
   });
 });

@@ -7,7 +7,6 @@ export default defineConfig([
   globalIgnores([
     ".next/**",
     ".pages-build/**",
-    "docs/**",
     ".taste-skill/**",
     "next-env.d.ts",
     "playwright-report/**",
