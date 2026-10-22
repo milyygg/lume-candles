@@ -1,4 +1,4 @@
 :HL["/lume-candles/_next/static/chunks/2i9tlr9re2xds.css","style"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"/_not-found","h":96,"c":"$Q2"}]]
-0:{"b":"Gi4Xc4l84ZbrBXlQPyhEr","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"6bHAasf3bmcM2kLWuogxx","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
