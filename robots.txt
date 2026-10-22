@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /
+
+Sitemap: https://milyygg.github.io/lume-candles/sitemap.xml

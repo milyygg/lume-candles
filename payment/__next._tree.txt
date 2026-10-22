@@ -1,0 +1,4 @@
+:HL["/lume-candles/_next/static/chunks/1jbqn3rw7kf5b.css","style"]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":{"n":"page","t":"d","k":"payment","s":["cart","catalog","checkout","media-library"]},"h":96,"c":"$Q2"}]]
+0:{"b":"Jt82EM8cD3XResW2sQHds","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
