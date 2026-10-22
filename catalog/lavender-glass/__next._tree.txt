@@ -1,0 +1,5 @@
+:HL["/lume-candles/_next/static/chunks/2i9tlr9re2xds.css","style"]
+3:[["children",{"s":"__PAGE__","h":160}]]
+2:[["children",{"s":{"n":"slug","t":"d","k":"lavender-glass","s":[]},"h":96,"c":"$Q3"}]]
+1:[["children",{"s":"catalog","h":96,"c":"$Q2"}]]
+0:{"b":"Gi4Xc4l84ZbrBXlQPyhEr","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
