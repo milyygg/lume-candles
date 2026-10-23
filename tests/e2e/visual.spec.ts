@@ -8,7 +8,7 @@ test("client redesign screenshots, studio photos, fonts and reduced motion", asy
   const errors: string[] = [];
   page.on("pageerror", (error) => errors.push(error.message));
   await page.emulateMedia({ reducedMotion: "reduce" });
-  const folder = `docs/client-redesign/screenshots/${testInfo.project.name}`;
+  const folder = `test-results/screenshots/${testInfo.project.name}`;
   await fs.mkdir(folder, { recursive: true });
   for (const [route, name] of [
     ["/", "home"],

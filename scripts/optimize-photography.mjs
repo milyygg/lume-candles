@@ -2,7 +2,7 @@ import sharp from 'sharp';
 import fs from 'node:fs/promises';
 import crypto from 'node:crypto';
 const folder='public/photography/optimized';
-await fs.mkdir(folder,{recursive:true});await fs.mkdir('docs/final-optimization',{recursive:true});
+await fs.mkdir(folder,{recursive:true});await fs.mkdir('test-results/optimization',{recursive:true});
 const originals=JSON.parse(await fs.readFile('src/data/photography.json','utf8'));
 const studio=JSON.parse(await fs.readFile('src/data/studio-photography.json','utf8'));
 const manifest={},stats=[];const hashes={};
@@ -22,7 +22,7 @@ for(const [kind,photos]of [['studio',studio],['original',originals]])for(const [
  console.log(`${id} ${kind}: ${variants.length} sizes`);
 }
 await fs.writeFile('src/data/optimized-photography.json',JSON.stringify(manifest,null,2)+'\n');
-await fs.writeFile('docs/final-optimization/image-sizes.json',JSON.stringify(stats,null,2));
+await fs.writeFile('test-results/optimization/image-sizes.json',JSON.stringify(stats,null,2));
 hashes['Открыть сайт.url']=crypto.createHash('sha256').update(await fs.readFile('Открыть сайт.url')).digest('hex');
-await fs.writeFile('docs/final-optimization/preserved-hashes.json',JSON.stringify(hashes,null,2));
+await fs.writeFile('test-results/optimization/preserved-hashes.json',JSON.stringify(hashes,null,2));
 console.log('Generated derivatives; source files untouched.');

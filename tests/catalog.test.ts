@@ -13,11 +13,11 @@ describe("client catalogue and handoff",()=>{
  expect(sources.size).toBe(40);for(let i=1;i<=40;i++)expect(sources.has(`MEDIA-${String(i).padStart(2,"0")}`)).toBe(true);
  });
  it("preserves original file hashes",()=>{
- const before=JSON.parse(fs.readFileSync("docs/client-redesign/preservation-before.json","utf8"));
+ const before=JSON.parse(fs.readFileSync("tests/fixtures/original-hashes.json","utf8"));
  for(const [file,hash]of Object.entries(before))if(file.startsWith("public/photography/"))expect(crypto.createHash("sha256").update(fs.readFileSync(file)).digest("hex")).toBe(hash);
  });
  it("keeps public single click shortcut identical",()=>{
- const before=JSON.parse(fs.readFileSync("docs/client-redesign/preservation-before.json","utf8"));
+ const before=JSON.parse(fs.readFileSync("tests/fixtures/original-hashes.json","utf8"));
  expect(crypto.createHash("sha256").update(fs.readFileSync("Открыть сайт.url")).digest("hex")).toBe(before["Открыть сайт.url"]);
  });
  it("has the three approved size labels",()=>expect(Object.values(pricing.sizes).map(s=>s.label)).toEqual(["6-9 см","9-20 см","20-34 см"]));
