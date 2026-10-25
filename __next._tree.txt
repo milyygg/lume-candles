@@ -1,3 +1,3 @@
 :HL["/lume-candles/_next/static/chunks/1x-05067_j6ji.css","style"]
 1:[["children",{"s":"__PAGE__","h":160}]]
-0:{"b":"Y30SO7fbGJhjrefDqw8DY","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"QLz5tRsBeu21nX6RVNJL8","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
