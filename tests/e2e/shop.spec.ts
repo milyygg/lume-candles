@@ -38,7 +38,7 @@ test("catalog, constructor, persistent cart and Telegram handoff", async ({
   await expect(page.locator(".cart-item")).toHaveCount(1);
   await page.getByRole("link", { name: "Оформить заказ" }).click();
   await expect(page.getByLabel("Состав заказа для отправки")).toHaveValue(/4\s000/);
-  await expect(page.getByRole("link", {name:"Открыть Telegram"})).toHaveAttribute("href", /https:\/\/t\.me\//);
+  await expect(page.getByRole("link", {name:"Перейти к заказу в Telegram"})).toHaveAttribute("href", /https:\/\/t\.me\/share\/url\?/);
   await expect(page.locator(".cart-link")).toContainText("2");
 
 });
