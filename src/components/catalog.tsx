@@ -1,5 +1,6 @@
 "use client";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { englishLabels } from "@/lib/english-labels";
 import { aromas } from "@/data/aromas";
 import { visibleProducts } from "@/data/products";
 import { ProductCard } from "./product-card";
@@ -13,25 +14,32 @@ export function Catalog({
     [category, setCategory] = useState(initialCategory),
     [sort, setSort] = useState("featured"),
     [scent, setScent] = useState("");
+  const [language, setLanguage] = useState("ru");
+  useEffect(() => {
+    const update = () => setLanguage(document.documentElement.lang);
+    update();
+    window.addEventListener("portfolio:language",update);
+    return () => window.removeEventListener("portfolio:language",update);
+  }, []);
   const filtered = useMemo(() => {
     const list = visibleProducts.filter(
       (p) =>
         (category === "Все формы" || p.category === category) &&
-        p.name
-          .toLocaleLowerCase("ru")
+        `${p.name} ${englishLabels[p.name] || ""}`
+          .toLocaleLowerCase(language)
           .includes(search.toLocaleLowerCase("ru")) &&
         (!scent || p.aromas.some(a=>a.id===scent)),
     );
     return [...list].sort((a, b) =>
       sort === "name"
-        ? a.name.localeCompare(b.name, "ru")
+        ? (language === "en" ? englishLabels[a.name] || a.name : a.name).localeCompare(language === "en" ? englishLabels[b.name] || b.name : b.name, language)
         : sort === "price-up"
           ? a.basePrice - b.basePrice
           : sort === "price-down"
             ? b.basePrice - a.basePrice
             : 0,
     );
-  }, [search, category, sort, scent]);
+  }, [search, category, sort, scent, language]);
   const reset = () => {
     setSearch("");
     setCategory("Все формы");

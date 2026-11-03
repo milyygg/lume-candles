@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { StoreProvider } from "@/components/store";
 import { RevealSections } from "@/components/reveal-sections";
 import { Header } from "@/components/header";
@@ -48,6 +49,7 @@ export default function RootLayout({
           <Footer />
           <RevealSections />
         </StoreProvider>
+        <Script src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/localization.js`} strategy="afterInteractive" />
       </body>
     </html>
   );

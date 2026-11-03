@@ -1,8 +1,17 @@
 import { findProduct } from "@/data/products";
 import { money, pricing } from "./config";
 import { cartTotal, unitPrice, validateSelection, type Selection } from "./cart";
-export function orderMessage(items:Selection[],comment="") {
+import { englishLabels } from "./english-labels";
+export function orderMessage(items:Selection[],comment="",language="ru") {
  const valid = items.map(validateSelection);
+ if(language==="en") {
+  const label=(value:string)=>englishLabels[value] || value.replace(/см/g,"cm");
+  return ["Hello! I'd like to order LUMÉ candles.",...valid.map((item,i)=>{
+   const p=findProduct(item.productId)!;
+   const aroma=item.aroma==="none"?"Unscented":label(p.aromas.find(a=>a.id===item.aroma)!.label);
+   return `${i+1}. ${label(p.name)}\n${label(pricing.sizes[item.size].label)}, ${label(pricing.materials[item.material].label)}, ${aroma}${item.decor?", extra decoration":""}\n${item.quantity} pcs × ${money(unitPrice(item))} = ${money(unitPrice(item)*item.quantity)}`;
+  }),`Total: ${money(cartTotal(valid))}, excluding delivery.`,comment.trim()?`Preferences: ${comment.trim().slice(0,500)}`:"","Please confirm the details and delivery."].filter(Boolean).join("\n\n");
+ }
  return ["Здравствуйте! Хочу заказать свечи LUMÉ.","",...valid.map((item,i)=>{
  const p=findProduct(item.productId)!;
  const aroma=item.aroma==="none"?"Без аромата":p.aromas.find(a=>a.id===item.aroma)!.label;
