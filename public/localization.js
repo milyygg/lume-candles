@@ -266,6 +266,8 @@ window.portfolioTranslations = {
   "Логотип интернет-магазина Online Store": "Online Store shop logo"
 };
 
+Object.assign(window.portfolioTranslations,{"Пример: Pigeon Service - сайт частного мастера":"Example: Pigeon Service - an independent repair specialist","Посетитель узнаёт о специалисте, изучает услуги и работы, затем выбирает способ связи.":"Visitors meet the specialist, explore services and work, then choose how to get in touch.","Информация о мастере":"About the specialist","Услуги, цены и примеры работ":"Services, prices and work examples","Кнопки связи и записи":"Contact and booking buttons","Сайт для клиента, согласованный с мастером.":"A client website approved by the specialist.","Открыть сайт мастера":"Visit the specialist’s website","Демонстрационный проект: квест «Последний сигнал»":"Demo project: The Last Signal escape room","Страница рекламирует один квест и ведёт к одному действию - выбору сеанса.":"The page presents one escape room and guides visitors to choose a session.","Атмосферный первый экран и сюжет":"An atmospheric opening and storyline","Условия игры и ответы на вопросы":"Game details and frequently asked questions","Выбор даты, времени и числа участников":"Date, time and team size selection","Расчёт цены команды и пример бронирования":"Team pricing and a booking demonstration","Квест, расписание и цены вымышлены. Подтверждение демонстрационное: реальные бронирования не создаются.":"The escape room, schedule and prices are fictional. Confirmation is a demonstration; no real bookings are made.","Открыть лендинг квеста":"Visit the escape room landing page","Демонстрационный проект: цветочная студия FLEUR":"Demo project: FLEUR flower studio","Каталог помогает сравнивать позиции и выбирать, поэтому здесь важны навигация, фильтры и удобные карточки.":"The catalog helps visitors compare products and choose, with clear navigation, filters and product cards.","Категории и фильтры":"Categories and filters","Карточки товаров":"Product cards","Корзина и сценарий оформления заказа":"Cart and checkout flow","FLEUR - вымышленный магазин. Формы демонстрируют сценарий заказа без отправки заявки.":"FLEUR is a fictional store. Forms demonstrate ordering without sending a request.","Открыть демо-каталог":"Open the demo catalog"});
+
 Object.assign(window.portfolioTranslations, {
  "LUMÉ CANDLES | Свечи ручной работы":"LUMÉ CANDLES | Handmade candles",
  "К содержимому":"Skip to content","Коллекция":"Collection","О мастерской":"Our workshop",
@@ -443,6 +445,7 @@ Object.assign(window.portfolioTranslations, {
   function translated(value) {
     const trimmed = value.trim();
     if (language === 'ru') return value;
+    if(document.body?.hasAttribute('data-service-currency') && /₽/.test(value))return (dictionaries[value.trim()]||value).replace(/([\d\s\u00a0]+)\s*₽/g,(_,n)=>{const rub=Number(n.replace(/\s/g,''));return ' $'+Math.ceil(rub/80.9734)+' / €'+Math.ceil(rub/90.4635);});
     let result = dictionaries[trimmed];
     if (!result) {
       const count = /^(Все проекты|Показано): (\d+)$/.exec(trimmed);
@@ -513,6 +516,8 @@ Object.assign(window.portfolioTranslations, {
       }
       attributes.set(element,state);
     }
+    for(const a of root.querySelectorAll('a[data-href-en]')){if(!a.dataset.hrefRu)a.dataset.hrefRu=a.getAttribute('href');a.setAttribute('href',language==='en'?a.dataset.hrefEn:a.dataset.hrefRu);}
+    for(const a of root.querySelectorAll('a[data-href-en]')){if(!a.dataset.hrefRu)a.dataset.hrefRu=a.getAttribute('href');a.setAttribute('href',language==='en'?a.dataset.hrefEn:a.dataset.hrefRu);}
     if (control) {
       control.setAttribute('aria-label', language === 'en' ? 'Language' : 'Язык');
       for (const button of control.querySelectorAll('button')) button.setAttribute('aria-pressed', String(button.dataset.language === language));
@@ -523,6 +528,7 @@ Object.assign(window.portfolioTranslations, {
       const source = old && current === old.rendered ? old.source : current;
       const english = image.dataset.srcEn || window.portfolioLocalizedImages?.[source];
       const rendered = language === 'en' && english ? english : source;
+      if(english && image.hasAttribute('srcset')){if(!image.dataset.originalSrcset)image.dataset.originalSrcset=image.getAttribute('srcset');if(language==='en')image.removeAttribute('srcset');else image.setAttribute('srcset',image.dataset.originalSrcset);}
       if (current !== rendered) image.setAttribute('src',rendered);
       imageSources.set(image,{source,rendered});
     }
@@ -542,7 +548,7 @@ Object.assign(window.portfolioTranslations, {
   window.portfolioLanguage = {get language(){return language;},select,translate:translated};
   function start() {
     const style=document.createElement('style');
-    style.textContent='[data-language-control]{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));z-index:1000;display:flex;align-items:center;background:#17191e;color:#fff;border:1px solid #666;border-radius:28px;padding:3px;box-shadow:0 3px 16px #0003;font:600 13px/1.2 system-ui,sans-serif}[data-language-control] button{font:inherit;min-width:48px;min-height:44px;border:0;border-radius:24px;background:transparent;color:inherit;cursor:pointer}[data-language-control] button[aria-pressed=true]{background:#f3efe9;color:#17191e}[data-language-control] button:focus-visible{outline:3px solid #ff8a5b;outline-offset:2px}';
+    style.textContent='[data-language-control]{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));z-index:1000;display:flex;align-items:center;background:#17191e;color:#fff;border:1px solid #666;border-radius:9px;padding:2px;box-shadow:0 3px 16px #0003;font:600 13px/1.2 system-ui,sans-serif}[data-language-control] button{font:inherit;min-width:48px;min-height:44px;border:0;border-radius:5px;background:transparent;color:inherit;cursor:pointer}[data-language-control] button[aria-pressed=true]{background:transparent;color:#ff8a5b;text-decoration:underline;text-underline-offset:5px}[data-language-control] button:focus-visible{outline:3px solid #ff8a5b;outline-offset:2px}';
     document.head.append(style);
     control=document.createElement('div');
     control.dataset.languageControl='';control.setAttribute('role','group');control.setAttribute('aria-label','Language / Язык');
