@@ -1,0 +1,21 @@
+node_modules/
+.next/
+.pages-build/
+.env*
+!.env.example
+/data/
+coverage/
+test-results/
+playwright-report/
+*.tsbuildinfo
+/_backups/
+.taste-skill/
+
+# Local visual QA evidence stays in the workspace.
+docs/client-redesign/**/*.png
+
+# High-resolution client presentation and local performance evidence.
+/Презентация для клиентки/
+docs/final-optimization/**/*.png
+
+/docs/
